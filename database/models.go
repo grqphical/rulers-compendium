@@ -6,11 +6,10 @@ type Agenda struct {
 }
 
 type Leader struct {
-	Id           int
-	Civilization int
-	LeaderBonus  string
-	LeaderAgenda Agenda
-	Religion     string
+	Id            int
+	Civilization  int
+	LeaderAbility string
+	LeaderAgenda  Agenda
 }
 
 type Civlization struct {

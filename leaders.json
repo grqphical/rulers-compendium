@@ -1,0 +1,806 @@
+[
+  {
+    "name": "Abraham Lincoln",
+    "civ": "American",
+    "ability": {
+      "name": "Emancipation Proclamation",
+      "text": "Industrial Zones grant +2  Amenities and +3 Loyalty per turn but Plantations give -2 Loyalty. Receives a free Melee unit after constructing Industrial Zones and their buildings. The free unit does not require resources when created or to maintain and receives +5  Combat Strength.\n"
+    },
+    "agenda": {
+      "name": "Preserver of the Union",
+      "text": "Likes civilizations with the same form of government, dislikes those with a different form of government and really dislikes ones with a different government of the same era as his own."
+    }
+  },
+  {
+    "name": "Alexander",
+    "civ": "Macedonian",
+    "ability": {
+      "name": "To the World's End",
+      "text": "Macedonian cities never incur war weariness. All military units heal completely when a city with a Wonder is captured. Gains the Hetairoi unique unit with Horseback Riding.\n"
+    },
+    "agenda": {
+      "name": "Short Life of Glory",
+      "text": "Likes civilizations at war with powers other than Macedon. Dislikes civilizations at peace.  Grievances against this leader decay at twice the usual rate."
+    }
+  },
+  {
+    "name": "Amanitore",
+    "civ": "Nubian",
+    "ability": {
+      "name": "Kandake of Mero\u00eb",
+      "text": "+20%  Production towards  Districts, increasing to +40%  Production if there is a Nubian Pyramid adjacent to the City Center.\n"
+    },
+    "agenda": {
+      "name": "City Planner",
+      "text": "Tries to keep the maximum number of  Districts in each city, and likes those that do the same. Dislikes civilizations that do not build as many districts as possible in their cities."
+    }
+  },
+  {
+    "name": "Ambiorix",
+    "civ": "Gallic",
+    "ability": {
+      "name": "King of the Eburones",
+      "text": "Receives  Culture equal to 20% of the  Production cost after training a non-civilian unit. Melee, ranged and anti-cavalry units receive +2  Combat Strength for each adjacent military unit.\n"
+    },
+    "agenda": {
+      "name": "Scourge of Rome",
+      "text": "Focuses on having many military units, and likes those who do the same. Dislikes civilizations that have few military units."
+    }
+  },
+  {
+    "name": "B\u00e0 Tri\u1ec7u",
+    "civ": "Vietnamese",
+    "ability": {
+      "name": "Drive Out The Aggressors",
+      "text": "All units gain +5  Combat Strength when fighting in Rainforest, Marsh, and Woods tiles, and +1  Movement if they start their turn there. Both of these bonuses are doubled in tiles inside Vietnamese territory.\n"
+    },
+    "agenda": {
+      "name": "Defender of the Homeland",
+      "text": "Likes civilizations that have never declared war on Vietnam. She will never forgive those who have, with her opinion decreasing further with each turn the war lasts, and this decreased opinion never recovering."
+    }
+  },
+  {
+    "name": "Basil II",
+    "civ": "Byzantine",
+    "ability": {
+      "name": "Porphyrog\u00e9nn\u0113tos",
+      "text": "Heavy and light cavalry units deal full damage when attacking cities following the same Religion as Byzantium. Gains the Tagma unique unit with Divine Right.\n"
+    },
+    "agenda": {
+      "name": "Divine Guardian",
+      "text": "Focuses on spreading his Religion to other civilizations, and likes those who follow it. Dislikes those that do not follow his Religion."
+    }
+  },
+  {
+    "name": "Catherine de Medici",
+    "civ": "French",
+    "ability": {
+      "name": "Catherine's Flying Squadron",
+      "text": "Gains +1 level of  Diplomatic Visibility with every encountered civilization. Receives a free Spy with Castles. All Spies start with a free promotion.\n"
+    },
+    "agenda": {
+      "name": "Black Queen",
+      "text": "Gains as many Spies and as much  Diplomatic Visibility as possible, and likes those who do the same. Dislikes civilizations that ignore these espionage activities."
+    }
+  },
+  {
+    "name": "Chandragupta",
+    "civ": "Indian",
+    "ability": {
+      "name": "Arthashastra",
+      "text": "Can declare a War of Territorial Expansion with Military Training, instead of Mobilization. +2  Movement and +5  Combat Strength for all units for the next 10 turns after declaring a War of Territorial Expansion.\n"
+    },
+    "agenda": {
+      "name": "Maurya Empire",
+      "text": "Dislikes civilizations that have cities close to his borders, and will try to conquer them. Likes civilizations that are not his neighbors."
+    }
+  },
+  {
+    "name": "Cleopatra",
+    "civ": "Egyptian",
+    "ability": {
+      "name": "Mediterranean's Bride",
+      "text": "International  Trade Routes grant +4  Gold.  Trade Routes sent to Egypt from other civilizations provide +2  Food for them and +2  Gold for Egypt.\n"
+    },
+    "agenda": {
+      "name": "Queen of the Nile",
+      "text": "Likes civilizations with powerful militaries, and will try to ally with them to avoid conflict. Dislikes civilizations with weak militaries."
+    }
+  },
+  {
+    "name": "Cyrus",
+    "civ": "Persian",
+    "ability": {
+      "name": "Fall of Babylon",
+      "text": "+2  Movement for all units for the next 10 turns after declaring a Surprise War. Surprise Wars count as Formal Wars for the purposes of warmongering penalties and war weariness. Occupied cities have no penalties to their yields.\n"
+    },
+    "agenda": {
+      "name": "Opportunist",
+      "text": "Will often declare Surprise Wars, and likes civilizations that do the same. Dislikes civilizations that do not declare Surprise Wars."
+    }
+  },
+  {
+    "name": "Dido",
+    "civ": "Phoenician",
+    "ability": {
+      "name": "Founder of Carthage",
+      "text": "Cities with a Cothon gain the unique Move Capital project, which moves the Phoenician  Capital capital to that city. Gains +1  Trade Route capacity after building the Government Plaza or any Government Plaza building. +50%  Production towards  Districts in the city with the Government Plaza.\n"
+    },
+    "agenda": {
+      "name": "Sicilian Wars",
+      "text": "Wants to settle coastal cities, and likes civilizations that settle inland. Dislikes civilizations with many coastal cities."
+    }
+  },
+  {
+    "name": "Eleanor of Aquitaine",
+    "civ": "English",
+    "ability": {
+      "name": "Court of Love",
+      "text": "Each Great Work in her cities causes foreign cities within 9 tiles to lose 1 Loyalty per turn. Any foreign city that leaves its civilization due to loss of Loyalty and is receiving the most Loyalty pressure from Eleanor instantly joins her empire, instead of becoming a Free City.\n"
+    },
+    "agenda": {
+      "name": "Angevin Empire",
+      "text": "Builds up the  Population of her cities, and likes those whose nearby cities also have a high  Population. Dislikes civilizations whose nearby cities have low  Population."
+    }
+  },
+  {
+    "name": "Elizabeth I",
+    "civ": "English",
+    "ability": {
+      "name": "Drake's Legacy",
+      "text": "+2  Trade Route capacity upon recruiting the first  Great Admiral.  Trade Routes to city-states gain +3  Gold for every specialty district at the origin city. +100% yields from plundering  Trade Routes.\n"
+    },
+    "agenda": {
+      "name": "Trade Agreement",
+      "text": "Tries to have as many  Trade Routes as possible, and likes civilizations that trade with her cities. Dislikes those who refrain from sending  Trade Routes to her cities."
+    }
+  },
+  {
+    "name": "Frederick Barbarossa",
+    "civ": "German",
+    "ability": {
+      "name": "Holy Roman Emperor",
+      "text": "Gains an additional  Military policy slot in all Governments. +7  Combat Strength for all units when fighting city-states and their units.\n"
+    },
+    "agenda": {
+      "name": "Iron Crown",
+      "text": "Will try to conquer as many city-states as possible, and likes those who do not associate with them. Dislikes Suzerains of city-states, or civilizations that have conquered city-states."
+    }
+  },
+  {
+    "name": "Gandhi",
+    "civ": "Indian",
+    "ability": {
+      "name": "Satyagraha",
+      "text": "+5  Faith for each met civilization (including India) that has founded a Religion and is not at war. Enemies receive double war weariness from fighting against Gandhi.\n"
+    },
+    "agenda": {
+      "name": "Peacekeeper",
+      "text": "Never declares wars for which he can be branded a warmonger, and likes peaceful civilizations. Heavily dislikes warmongers."
+    }
+  },
+  {
+    "name": "Genghis Khan",
+    "civ": "Mongolian",
+    "ability": {
+      "name": "Mongol Horde",
+      "text": "Cavalry class units gain +3  Combat Strength and have a chance to capture defeated cavalry class enemy units.\n"
+    },
+    "agenda": {
+      "name": "Horse Lord",
+      "text": "Builds a strong cavalry force, and likes civilizations that do not compete in cavalry. Dislikes those who rival him in cavalry strength."
+    }
+  },
+  {
+    "name": "Gilgamesh",
+    "civ": "Sumerian",
+    "ability": {
+      "name": "Adventures of Enkidu / Legacy of Enkidu (Heroes & Legends only)",
+      "text": "May declare war on any civilization at war with an ally without warmonger penalties. When at war with a common enemy, Sumerian and allied units share pillage rewards and combat experience if within 5 tiles of each other.\n"
+    },
+    "agenda": {
+      "name": "Ally of Enkidu",
+      "text": "Is easy to befriend, and likes civilizations who are his Declared Friends. Dislikes anyone denouncing or attacking his friends."
+    }
+  },
+  {
+    "name": "Gitarja",
+    "civ": "Indonesian",
+    "ability": {
+      "name": "Exalted Goddess of the Three Worlds",
+      "text": "May purchase naval units with  Faith. Religious units pay no movement cost to embark or disembark. City Centers adjacent to Coast or Lake tiles gain +2  Faith.\n"
+    },
+    "agenda": {
+      "name": "Archipelagic State",
+      "text": "Likes civilizations that avoid having cities on small landmasses. Dislikes those who have numerous cities on such islands."
+    }
+  },
+  {
+    "name": "Gorgo",
+    "civ": "Greek",
+    "ability": {
+      "name": "Thermopylae",
+      "text": "Killing a unit provides  Culture equal to 50% of its  Combat Strength. All units gain +1  Combat Strength for every active Military Policy card in the current government.\n"
+    },
+    "agenda": {
+      "name": "With Your Shield Or On It",
+      "text": "Never gives up anything in a peace deal, and likes warmongers that match this approach. Dislikes those who have capitulated in a peace treaty or that have never gone to war.  Grievances against this leader decay at twice the usual rate."
+    }
+  },
+  {
+    "name": "Hammurabi",
+    "civ": "Babylonian",
+    "ability": {
+      "name": "Ninu Ilu Sirum",
+      "text": "Upon building each type of specialty  District, except the Government Plaza, for the first time, instantly receives the building with the lowest  Production cost that can be built in that district. Upon building any other district for the first time, receives a free  Envoy.\n"
+    },
+    "agenda": {
+      "name": "Cradle of Civilization",
+      "text": "Tries to build every type of  District, and likes those who do the same. Dislikes civilizations that focus heavily on building one type of district or do not build every type of district."
+    }
+  },
+  {
+    "name": "Harald Hardrada",
+    "civ": "Norwegian",
+    "ability": {
+      "name": "Thunderbolt of the North",
+      "text": "+50%  Production toward naval melee units. All naval melee units gain the ability to perform Coastal Raids. Gains the Viking Longship unique unit with Sailing.\n"
+    },
+    "agenda": {
+      "name": "Last Viking King",
+      "text": "Builds a strong navy, and likes civilizations that do the same. Dislikes civilizations that neglect their navies."
+    }
+  },
+  {
+    "name": "Hojo Tokimune",
+    "civ": "Japanese",
+    "ability": {
+      "name": "Divine Wind",
+      "text": "+5  Combat Strength for land units and naval units fighting on coastal and shallow water tiles. Encampment, Holy Site and Theater Square districts are built in half the time.\n"
+    },
+    "agenda": {
+      "name": "Bushido",
+      "text": "Likes civilizations that have both a strong military and strong  Faith or  Culture outputs. Dislikes civilizations that are strong in military but weak in  Faith or  Culture."
+    }
+  },
+  {
+    "name": "Jadwiga",
+    "civ": "Polish",
+    "ability": {
+      "name": "Lithuanian Union",
+      "text": "Taking territory from a foreign city with a Culture Bomb converts it to Poland's religion.  Relics grant +4  Gold, +2  Culture and +2  Faith. Holy Sites receive a +1 adjacency bonus from districts, instead of +0.5.\n"
+    },
+    "agenda": {
+      "name": "Saint",
+      "text": "Tries to build up  Faith, and likes those that also focus on  Faith. Dislikes civilizations with a weak  Faith output."
+    }
+  },
+  {
+    "name": "Jayavarman VII",
+    "civ": "Khmer",
+    "ability": {
+      "name": "Monasteries of the King",
+      "text": "Holy Sites grant  Food equal to their adjacency bonus, receive a +2 adjacency bonus from Rivers, grant 2  Housing if built next to a River, and trigger a Culture Bomb when built, claiming surrounding tiles.\n"
+    },
+    "agenda": {
+      "name": "An End to Suffering",
+      "text": "Likes civilizations with many Holy Sites and a high average city  Population. Dislikes civilizations lacking in either of these areas."
+    }
+  },
+  {
+    "name": "Jo\u00e3o III",
+    "civ": "Portuguese",
+    "ability": {
+      "name": "Porta do Cerco",
+      "text": "+1  Sight for all units. Meeting another civilization grants +1  Trade Route capacity. Gains Open Borders with all city-states.\n"
+    },
+    "agenda": {
+      "name": "Navigator's Legacy",
+      "text": "Focuses on exploring as much of the map as possible, and likes those who do the same. Dislikes civilizations that shun exploration."
+    }
+  },
+  {
+    "name": "John Curtin",
+    "civ": "Australian",
+    "ability": {
+      "name": "Citadel of Civilization",
+      "text": "+100%  Production if they have either received a declaration of war in the past 10 turns or liberated a city in the past 20 turns.\n"
+    },
+    "agenda": {
+      "name": "Perpetually on Guard",
+      "text": "Likes civilizations that liberate cities. Dislikes civilizations that are occupying enemy cities."
+    }
+  },
+  {
+    "name": "Julius Caesar",
+    "civ": "Roman",
+    "ability": {
+      "name": "Veni, Vidi, Vici",
+      "text": "Gains 300  Gold after conquering a city for the first time, and after earning  Gold from a Barbarian Outpost. Both amounts become 500  Gold after researching Metal Casting and 700  Gold after Steel (on Standard speed). Units gain 5  Combat Strength and receive full experience when fighting Barbarians.\n"
+    },
+    "agenda": {
+      "name": "Gallic Wars",
+      "text": "Hates Barbarians, and likes civilizations that also destroy their Outposts. Dislikes civilizations that ignore Barbarian Outposts."
+    }
+  },
+  {
+    "name": "Kristina",
+    "civ": "Swedish",
+    "ability": {
+      "name": "Minerva of the North",
+      "text": "Buildings with at least three Great Work slots and wonders with at least two Great Work slots are automatically themed when all slots are filled. Gains the Queen's Bibliotheque unique building in the Government Plaza.\n"
+    },
+    "agenda": {
+      "name": "Bibliophile",
+      "text": "Tries to collect as many Great Works as possible, and likes those who leave them to her. Dislikes civilizations with many Great Works."
+    }
+  },
+  {
+    "name": "Kublai Khan",
+    "civ": "Chinese",
+    "ability": {
+      "name": "Gerege",
+      "text": "Gains an additional  Economic policy slot in all Governments. Gains a random  Eureka and  Inspiration upon first establishing a  Trading Post in another major civilization's city.\n"
+    },
+    "agenda": {
+      "name": "Pax Mongolica",
+      "text": "Likes civilizations with a strong military and  Gold output. Dislikes those who have a weak military or low  Gold income."
+    }
+  },
+  {
+    "name": "Kupe",
+    "civ": "M\u0101ori",
+    "ability": {
+      "name": "Kupe's Voyage",
+      "text": "Starts the game in the Ocean. +2  Science and +2  Culture per turn before the first city is settled. Their first settled city receives a free Builder and +1  Population. The Palace grants +3  Housing and +1  Amenity.\n"
+    },
+    "agenda": {
+      "name": "Kaitiakitanga",
+      "text": "Tries to avoid contributing to climate change by not removing features, planting Woods, and founding National Parks, and likes those who do the same. Dislikes civilizations that show little concern for the environment."
+    }
+  },
+  {
+    "name": "Lady Six Sky",
+    "civ": "Mayan",
+    "ability": {
+      "name": "Ix Mutal Ajaw",
+      "text": "Non- Capital cities within 6 tiles of the  Capital gain +10% to all yields and receive a Builder when founded, while cities more than 6 tiles away receive -15% to all yields. +5  Combat Strength for all units within six tiles of the Mayan  Capital.\n"
+    },
+    "agenda": {
+      "name": "Solitary",
+      "text": "Keeps her cities clustered around her  Capital, and likes civilizations who settle far away from her. Dislikes those who encroach upon her borders with cities or troops."
+    }
+  },
+  {
+    "name": "Lautaro",
+    "civ": "Mapuche",
+    "ability": {
+      "name": "Swift Hawk",
+      "text": "+10  Combat Strength when fighting civilizations that are in a Golden or Heroic Age, or Free Cities. Defeating an enemy unit within the borders of an enemy city causes that city to lose 20 Loyalty, or 40 Loyalty if that civilization is in a Golden or Heroic Age.\n"
+    },
+    "agenda": {
+      "name": "Spirit of Tucapel",
+      "text": "Tries to maintain his cities loyal, and likes civilizations who do the same. Dislikes those that fail to maintain the loyalty of their people."
+    }
+  },
+  {
+    "name": "Ludwig II",
+    "civ": "German",
+    "ability": {
+      "name": "Swan King",
+      "text": "Wonders, even unfinished, receive a +2  Culture bonus from each adjacent  District. All  Culture adjacency bonuses provide  Tourism after researching Castles.\n"
+    },
+    "agenda": {
+      "name": "Eternal Enigma",
+      "text": "Likes civilizations who do not maximize the number of  Districts in their cities, and dislikes those who do."
+    }
+  },
+  {
+    "name": "Mansa Musa",
+    "civ": "Malian",
+    "ability": {
+      "name": "Sahel Merchants",
+      "text": "International  Trade Routes gain +1  Gold for every flat Desert tile in the sending city. Entering a Golden Age permanently grants +1  Trade Route capacity.\n"
+    },
+    "agenda": {
+      "name": "Lord of the Mines",
+      "text": "Tries to build up  Gold, and likes those that also focus on  Gold. Dislikes civilizations with a weak  Gold output."
+    }
+  },
+  {
+    "name": "Matthias Corvinus",
+    "civ": "Hungarian",
+    "ability": {
+      "name": "Raven King",
+      "text": "Levied city-state units receive +2  Movement and +5  Combat Strength, and can be upgraded at a 75% discount in  Gold or resources. Levying troops from a city-state grants 2  Envoys with that city-state. Gains the Black Army unique unit with Castles.\n"
+    },
+    "agenda": {
+      "name": "Raven Banner",
+      "text": "Will often levy troops from city-states, and likes those who do the same. Dislikes civilizations that shun such mercenaries."
+    }
+  },
+  {
+    "name": "Menelik II",
+    "civ": "Ethiopian",
+    "ability": {
+      "name": "Council of Ministers",
+      "text": "Ethiopian cities founded on Hills receive  Science and  Culture equal to 15% of their  Faith output. +4  Combat Strength for all units when fighting on hills.\n"
+    },
+    "agenda": {
+      "name": "Ethiopian Highlands",
+      "text": "Tries to settle cities on Hills, and likes civilizations who avoid settling near Hills. Dislikes civilizations that settle around Hills."
+    }
+  },
+  {
+    "name": "Montezuma",
+    "civ": "Aztec",
+    "ability": {
+      "name": "Gifts for the Tlatoani",
+      "text": "Improved Luxury resources provide an  Amenity to 2 extra cities. Military units receive +1  Combat Strength for each different improved Luxury resource in Aztec territory.\n"
+    },
+    "agenda": {
+      "name": "Tlatoani",
+      "text": "Likes civilizations who have the same Luxury resources as he does, and will try to collect every Luxury resource available. Dislikes those with Luxury resources he doesn't have."
+    }
+  },
+  {
+    "name": "Mvemba a Nzinga",
+    "civ": "Kongolese",
+    "ability": {
+      "name": "Religious Convert",
+      "text": "May not build Holy Sites or found a religion, but receives all the beliefs of any religion that has established itself as Kongo's majority religion, not just the Follower beliefs. Building a Mbanza or Theater Square grants a free Apostle of the city's majority religion.\n"
+    },
+    "agenda": {
+      "name": "Enthusiastic Disciple",
+      "text": "Likes civilizations that bring religion to the Kongo. Dislikes those who have founded a religion but not spread it to a Kongolese city."
+    }
+  },
+  {
+    "name": "Nader Shah",
+    "civ": "Persian",
+    "ability": {
+      "name": "Sword of Persia",
+      "text": "+5  Combat Strength for all units when attacking full health units. Cities not founded by Nader Shah gain +2  Faith and +3  Gold on domestic  Trade Routes.\n"
+    },
+    "agenda": {
+      "name": "Jazayerchi",
+      "text": "Likes civilizations with a high number of land units. Dislikes civilizations with a low number of land units."
+    }
+  },
+  {
+    "name": "Nzinga Mbande",
+    "civ": "Kongolese",
+    "ability": {
+      "name": "Queen of Ndongo and Mtamba",
+      "text": "Cities on the same continent as the  Capital (including the  Capital) receive +10% to all yields, while cities on another continent receive -15% to all yields.\n"
+    },
+    "agenda": {
+      "name": "Decolonization",
+      "text": "Likes civilizations on continents where she has no cities. Dislikes civilizations that have a city on her home continent."
+    }
+  },
+  {
+    "name": "Pachacuti",
+    "civ": "Incan",
+    "ability": {
+      "name": "Qhapaq \u00d1an",
+      "text": "Domestic  Trade Routes gain +1  Food for every Mountain tile in the origin city. Gains the Qhapaq \u00d1an unique improvement with Foreign Trade.\n"
+    },
+    "agenda": {
+      "name": "Sapa Inca",
+      "text": "Tries to settle near Mountains, and likes those who leave those areas to him. Dislikes civilizations that also settle near Mountains."
+    }
+  },
+  {
+    "name": "Pedro II",
+    "civ": "Brazilian",
+    "ability": {
+      "name": "Magnanimous",
+      "text": "Recruiting or patronizing a  Great Person refunds 20% of their point cost.\n"
+    },
+    "agenda": {
+      "name": "Patron of the Arts",
+      "text": "Will recruit as many  Great People as possible, and likes civilizations that do not compete for  Great People. Dislikes civilizations who take  Great People from him."
+    }
+  },
+  {
+    "name": "Pericles",
+    "civ": "Greek",
+    "ability": {
+      "name": "Surrounded by Glory",
+      "text": "+5%  Culture per city-state Greece has Suzerainty over.\n"
+    },
+    "agenda": {
+      "name": "Delian League",
+      "text": "Likes civilizations that are not competing for city-state allegiance. Dislikes civilizations that are directly competing for city-state allegiance."
+    }
+  },
+  {
+    "name": "Peter",
+    "civ": "Russian",
+    "ability": {
+      "name": "The Grand Embassy",
+      "text": " Trade Routes to more advanced civilizations grant Russia +1  Science for every three technologies that civilization is ahead of them, and +1  Culture for every three civics.\n"
+    },
+    "agenda": {
+      "name": "Westernizer",
+      "text": "Likes those ahead of him in civics and technologies. Dislikes backwards civilizations that are behind in civics and technologies."
+    }
+  },
+  {
+    "name": "Philip II",
+    "civ": "Spanish",
+    "ability": {
+      "name": "El Escorial",
+      "text": "Inquisitors can Remove Heresy one extra time. Combat and religious units have a bonus of +5  Combat Strength against players following other religions.\n"
+    },
+    "agenda": {
+      "name": "Counter Reformer",
+      "text": "Likes civilizations who follow the same Religion as him, and wants his cities to all follow the same Religion. Dislikes those who spread their Religion into his empire."
+    }
+  },
+  {
+    "name": "Poundmaker",
+    "civ": "Cree",
+    "ability": {
+      "name": "Favorable Terms",
+      "text": "All Alliance types provide Shared Visibility.  Trade Routes grant +1  Food in the sending city and +1  Gold in the receiving city per Camp or Pasture in the receiving city.\n"
+    },
+    "agenda": {
+      "name": "Iron Confederacy",
+      "text": "Establishes as many Alliances as possible, and likes those who do the same. Dislikes civilizations that do not establish Alliances."
+    }
+  },
+  {
+    "name": "Qin Shi Huang",
+    "civ": "Chinese",
+    "ability": {
+      "name": "The First Emperor",
+      "text": "Builders receive an additional build charge. Can spend Builder charges to complete 15% of the  Production cost for Ancient and Classical wonders.\n"
+    },
+    "agenda": {
+      "name": "Wall of 10,000 Li",
+      "text": "Builds wonders whenever possible, and likes civilizations that leave the wonders to him. Dislikes those with more wonders than him."
+    }
+  },
+  {
+    "name": "Ramses II",
+    "civ": "Egyptian",
+    "ability": {
+      "name": "Abu Simbel",
+      "text": "Receives  Culture equal to 15% of the  Production cost after completing a building, and 30% after completing a wonder.\n"
+    },
+    "agenda": {
+      "name": "Ma'at",
+      "text": "Clears all features and improves all possible tiles, and likes civilizations that do the same. Dislikes civilizations with few improved tiles or that found National Parks."
+    }
+  },
+  {
+    "name": "Robert the Bruce",
+    "civ": "Scottish",
+    "ability": {
+      "name": "Bannockburn",
+      "text": "Can declare a War of Liberation with Defensive Tactics, instead of Diplomatic Service. +100%  Production and +2  Movement for all units for the next 10 turns after declaring a War of Liberation.\n"
+    },
+    "agenda": {
+      "name": "Flower of Scotland",
+      "text": "Will never attack his neighboring civilizations unless they break a promise to him. Dislikes civilizations waging war on their neighbors, and likes those at peace with their neighbors."
+    }
+  },
+  {
+    "name": "Saladin",
+    "civ": "Arabian",
+    "ability": {
+      "name": "Righteousness of the Faith",
+      "text": "The Worship building for Arabia's Religion is 90% cheaper to purchase with  Faith. Arabian cities with that building gain +10%  Science,  Faith, and  Culture.\n"
+    },
+    "agenda": {
+      "name": "Ayyubid Dynasty",
+      "text": "Wants his Worship building in as many cities as possible, and likes civilizations with it. Dislikes civilizations following other Religions or waging war on followers of his Religion."
+    }
+  },
+  {
+    "name": "Sejong",
+    "civ": "Korean",
+    "ability": {
+      "name": "Hangul",
+      "text": "Upon completing the first technology from a new era, receives  Culture equal to double the current  Science output per turn.\n"
+    },
+    "agenda": {
+      "name": "Neo-Confucianism",
+      "text": "Likes civilizations who are behind him in  Culture and  Science. Dislikes those who are ahead in either of these fields."
+    }
+  },
+  {
+    "name": "Seondeok",
+    "civ": "Korean",
+    "ability": {
+      "name": "Hwarang",
+      "text": "Cities with an established Governor receive +3%  Culture and +3%  Science for each promotion that Governor has.\n"
+    },
+    "agenda": {
+      "name": "Cheomseongdae",
+      "text": "Tries to build up  Science, and likes those that also focus on  Science. Dislikes civilizations with a weak  Science output."
+    }
+  },
+  {
+    "name": "Shaka",
+    "civ": "Zulu",
+    "ability": {
+      "name": "Amabutho",
+      "text": "May form Corps with Mercenaries, instead of Nationalism, and Armies with Nationalism, instead of Mobilization. Corps and Armies gain an additional +5  Combat Strength.\n"
+    },
+    "agenda": {
+      "name": "Horn, Chest, Loins",
+      "text": "Forms as many Corps and Armies as possible, and likes those who do the same. Dislikes civilizations with few Corps and Armies."
+    }
+  },
+  {
+    "name": "Sim\u00f3n Bol\u00edvar",
+    "civ": "Gran Colombian",
+    "ability": {
+      "name": "Campa\u00f1a Admirable",
+      "text": "Entering a new era grants a Comandante General, a unique type of  Great Person.\n"
+    },
+    "agenda": {
+      "name": "Carabobo",
+      "text": "Focuses on promoting his units by building many Encampments, and likes civilizations with many promoted units. Dislikes civilizations without an elite, highly-promoted army."
+    }
+  },
+  {
+    "name": "Suleiman",
+    "civ": "Ottoman",
+    "ability": {
+      "name": "Grand Vizier",
+      "text": "Has access to a unique Governor, Ibrahim, the Grand Vizier. Gains the Janissary unique unit and 1  Governor title with Gunpowder.\n"
+    },
+    "agenda": {
+      "name": "Lawgiver",
+      "text": "Tries to keep his cities happy and loyal, and likes those who do the same, especially if they have taken cities from other civilizations. Dislikes those who struggle with happiness and loyalty, or that own few conquered cities."
+    }
+  },
+  {
+    "name": "Sundiata Keita",
+    "civ": "Malian",
+    "ability": {
+      "name": "Sogolon",
+      "text": "Patronage of  Great People costs 20% less  Gold. Markets gain 2 slots for  Great Works of Writing.  Great Works of Writing grant +4  Gold and +2  Production.\n"
+    },
+    "agenda": {
+      "name": "Lion of Mali",
+      "text": "Focuses on generating  Tourism, and likes those with low  Tourism. Dislikes civilizations that compete with him in  Tourism."
+    }
+  },
+  {
+    "name": "Tamar",
+    "civ": "Georgian",
+    "ability": {
+      "name": "Glory of the World, Kingdom and Faith",
+      "text": "Gains  Faith from combat victories equal to 50% of the  Combat Strength of the defeated unit. Each  Envoy sent to a city-state of Georgia's majority Religion counts as two  Envoys.\n"
+    },
+    "agenda": {
+      "name": "Narikala Fortress",
+      "text": "Builds high-level walls around her cities and likes those who do the same. Dislikes civilizations that do not fortify their cities with walls."
+    }
+  },
+  {
+    "name": "Teddy Roosevelt",
+    "civ": "American",
+    "ability": {
+      "name": "Roosevelt Corollary",
+      "text": "+5  Combat Strength for all units inside America's home continent. +1 Appeal to all tiles in cities with a National Park. Gains the Rough Rider unique unit with Rifling.\n"
+    },
+    "agenda": {
+      "name": "Big Stick Policy",
+      "text": "Likes peaceful civilizations that have a city on his home continent. Dislikes civilizations starting wars on his continent."
+    }
+  },
+  {
+    "name": "Theodora",
+    "civ": "Byzantine",
+    "ability": {
+      "name": "Metanoia",
+      "text": "Holy Sites provide  Culture equal to their adjacency bonus. Farms provide a +1  Faith adjacency to Hippodromes and Holy Sites.\n"
+    },
+    "agenda": {
+      "name": "New Rome",
+      "text": "Tries to build up  Culture, and likes those that also focus on  Culture. Dislikes civilizations with a weak   Culture output."
+    }
+  },
+  {
+    "name": "Tokugawa",
+    "civ": "Japanese",
+    "ability": {
+      "name": "Bakuhan",
+      "text": "International  Trade Routes receive -25% yields and  Tourism, but domestic  Trade Routes gain +1  Culture, +1  Science, and +2  Gold for every specialty district at the destination. Cities within 6 tiles of Japan's  Capital gain +4  Amenities and, after researching Flight, +1  Tourism for every specialty district.\n"
+    },
+    "agenda": {
+      "name": "Sakoku",
+      "text": "Wants to stay safe from conquest. Dislikes those who have conquered other civilizations'  Capitals."
+    }
+  },
+  {
+    "name": "Tomyris",
+    "civ": "Scythian",
+    "ability": {
+      "name": "Killer of Cyrus",
+      "text": "+5  Combat Strength for all units when attacking wounded units. Units heal up to 30 hit points after killing an enemy unit.\n"
+    },
+    "agenda": {
+      "name": "Backstab Averse",
+      "text": "Likes civilizations who are her Declared Friends. Dislikes civilizations who backstab their former allies and declare Surprise Wars."
+    }
+  },
+  {
+    "name": "Trajan",
+    "civ": "Roman",
+    "ability": {
+      "name": "Trajan's Column",
+      "text": "All founded cities start with a free building in the City Center. (A Monument if the game is started in the Ancient Era)\n"
+    },
+    "agenda": {
+      "name": "Optimus Princeps",
+      "text": "Tries to include as much territory as possible in his empire, and likes those who do the same. Dislikes civilizations with little territory."
+    }
+  },
+  {
+    "name": "Victoria",
+    "civ": "English",
+    "ability": {
+      "name": "Pax Britannica",
+      "text": "Founding a city or building a Royal Navy Dockyard outside of England's home continent grants a free melee unit in that city. Gains the Redcoat unique unit with Military Science.\n"
+    },
+    "agenda": {
+      "name": "Sun Never Sets",
+      "text": "Likes civilizations who have a city on her home continent, and will try to expand to all continents. Dislikes civilizations on continents where she has no cities."
+    }
+  },
+  {
+    "name": "Wilfrid Laurier",
+    "civ": "Canadian",
+    "ability": {
+      "name": "The Last Best West",
+      "text": "Can build Farms on Tundra tiles, and on Tundra Hills tiles with Civil Engineering. Snow, Snow Hills, Tundra Hills, and Tundra tiles cost 50% less  Gold to purchase. On those tiles, resources accumulate twice as fast, Mines and Lumber Mills receive +2  Production, and Camps and Farms receive +2  Food.\n"
+    },
+    "agenda": {
+      "name": "Canadian Expeditionary Force",
+      "text": "Participates in Emergencies and Competitions whenever possible, and likes civilizations who do the same. Dislikes those that ignore Emergencies and Competitions."
+    }
+  },
+  {
+    "name": "Wilhelmina",
+    "civ": "Dutch",
+    "ability": {
+      "name": "Radio Oranje",
+      "text": "Domestic  Trade Routes provide +2 Loyalty per turn for the starting city. +2  Culture for each   Trade Route sent to or received from a foreign civilization.\n"
+    },
+    "agenda": {
+      "name": "Billionaire",
+      "text": "Tries to have as many  Trade Routes as possible, and likes civilizations that trade with her cities. Dislikes those who refrain from sending  Trade Routes to her cities."
+    }
+  },
+  {
+    "name": "Wu Zetian",
+    "civ": "Chinese",
+    "ability": {
+      "name": "Manual of Entrapment",
+      "text": "Receives a free Spy with Defensive Tactics and Spies can be purchased with  Faith. Spies operate as if 1 level more experienced. Upon completing a successful offensive espionage mission on a foreign city, receives 100% of the  Science,  Faith and  Culture that city produced that turn.\n"
+    },
+    "agenda": {
+      "name": "Court Intrigue",
+      "text": "Likes civilizations who pose no threat. Dislikes civilizations with strong military or ones with nearby cities."
+    }
+  },
+  {
+    "name": "Yongle",
+    "civ": "Chinese",
+    "ability": {
+      "name": "Lijia",
+      "text": "All cities gain access to three unique Lijia projects, which can either convert 50% of their  Production into  Food or  Faith, or 100% of their  Production into  Gold.\n"
+    },
+    "agenda": {
+      "name": "Yinding",
+      "text": "Likes civilizations with a positive  Gold income per turn. Dislikes those with a negative  Gold income per turn."
+    }
+  }
+]
