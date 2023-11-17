@@ -1,6 +1,7 @@
 package main
 
 import (
+	"example/civ6-api/database"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
@@ -8,6 +9,11 @@ import (
 
 func index(c echo.Context) error {
 	return c.String(http.StatusOK, "index")
+}
+
+func get_leaders(c echo.Context) error {
+	leaders := database.ReadLeaders()
+
 }
 
 func main() {
