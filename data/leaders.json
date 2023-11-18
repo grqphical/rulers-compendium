@@ -1,10 +1,10 @@
 [
   {
     "name": "Abraham Lincoln",
-    "civ": "American",
+    "civ": "America",
     "ability": {
       "name": "Emancipation Proclamation",
-      "text": "Industrial Zones grant +2  Amenities and +3 Loyalty per turn but Plantations give -2 Loyalty. Receives a free Melee unit after constructing Industrial Zones and their buildings. The free unit does not require resources when created or to maintain and receives +5  Combat Strength.\n"
+      "text": "Industrial Zones grant +2  Amenities and +3 Loyalty per turn but Plantations give -2 Loyalty. Receives a free Melee unit after constructing Industrial Zones and their buildings. The free unit does not require resources when created or to maintain and receives +5  Combat Strength."
     },
     "agenda": {
       "name": "Preserver of the Union",
@@ -13,10 +13,10 @@
   },
   {
     "name": "Alexander",
-    "civ": "Macedonian",
+    "civ": "Macedonia",
     "ability": {
       "name": "To the World's End",
-      "text": "Macedonian cities never incur war weariness. All military units heal completely when a city with a Wonder is captured. Gains the Hetairoi unique unit with Horseback Riding.\n"
+      "text": "Macedonian cities never incur war weariness. All military units heal completely when a city with a Wonder is captured. Gains the Hetairoi unique unit with Horseback Riding."
     },
     "agenda": {
       "name": "Short Life of Glory",
@@ -25,10 +25,10 @@
   },
   {
     "name": "Amanitore",
-    "civ": "Nubian",
+    "civ": "Nubia",
     "ability": {
       "name": "Kandake of Mero\u00eb",
-      "text": "+20%  Production towards  Districts, increasing to +40%  Production if there is a Nubian Pyramid adjacent to the City Center.\n"
+      "text": "+20%  Production towards  Districts, increasing to +40%  Production if there is a Nubian Pyramid adjacent to the City Center."
     },
     "agenda": {
       "name": "City Planner",
@@ -37,10 +37,10 @@
   },
   {
     "name": "Ambiorix",
-    "civ": "Gallic",
+    "civ": "Gaul",
     "ability": {
       "name": "King of the Eburones",
-      "text": "Receives  Culture equal to 20% of the  Production cost after training a non-civilian unit. Melee, ranged and anti-cavalry units receive +2  Combat Strength for each adjacent military unit.\n"
+      "text": "Receives  Culture equal to 20% of the  Production cost after training a non-civilian unit. Melee, ranged and anti-cavalry units receive +2  Combat Strength for each adjacent military unit."
     },
     "agenda": {
       "name": "Scourge of Rome",
@@ -49,10 +49,10 @@
   },
   {
     "name": "B\u00e0 Tri\u1ec7u",
-    "civ": "Vietnamese",
+    "civ": "Vietnam",
     "ability": {
       "name": "Drive Out The Aggressors",
-      "text": "All units gain +5  Combat Strength when fighting in Rainforest, Marsh, and Woods tiles, and +1  Movement if they start their turn there. Both of these bonuses are doubled in tiles inside Vietnamese territory.\n"
+      "text": "All units gain +5  Combat Strength when fighting in Rainforest, Marsh, and Woods tiles, and +1  Movement if they start their turn there. Both of these bonuses are doubled in tiles inside Vietnamese territory."
     },
     "agenda": {
       "name": "Defender of the Homeland",
@@ -61,10 +61,10 @@
   },
   {
     "name": "Basil II",
-    "civ": "Byzantine",
+    "civ": "Byzantium",
     "ability": {
       "name": "Porphyrog\u00e9nn\u0113tos",
-      "text": "Heavy and light cavalry units deal full damage when attacking cities following the same Religion as Byzantium. Gains the Tagma unique unit with Divine Right.\n"
+      "text": "Heavy and light cavalry units deal full damage when attacking cities following the same Religion as Byzantium. Gains the Tagma unique unit with Divine Right."
     },
     "agenda": {
       "name": "Divine Guardian",
@@ -72,11 +72,11 @@
     }
   },
   {
-    "name": "Catherine de Medici",
-    "civ": "French",
+    "name": "Catherine de Medici (Black Queen)",
+    "civ": "France",
     "ability": {
       "name": "Catherine's Flying Squadron",
-      "text": "Gains +1 level of  Diplomatic Visibility with every encountered civilization. Receives a free Spy with Castles. All Spies start with a free promotion.\n"
+      "text": "Gains +1 level of  Diplomatic Visibility with every encountered civilization. Receives a free Spy with Castles. All Spies start with a free promotion."
     },
     "agenda": {
       "name": "Black Queen",
@@ -84,11 +84,23 @@
     }
   },
   {
+    "name": "Catherine de Medici (Magnificence)",
+    "civ": "France",
+    "ability": {
+      "name": "Catherine's Magnificences",
+      "text": "+2 Culture for improved Luxury resources adjacent to a Theater Square or Château. Cities with a Theater Square gain the unique Court Festival project, which upon completion grants Culture and Tourism based on the number of excess copies of the Luxury resources that France possesses."
+    },
+    "agenda": {
+      "name": "Sumptuous Finery",
+      "text": "Tries to collect as many copies of Luxury resources as possible, and likes civilizations that trade Luxury resources to her. Dislikes those that do not trade Luxuries with her."
+    }
+  },
+  {
     "name": "Chandragupta",
-    "civ": "Indian",
+    "civ": "India",
     "ability": {
       "name": "Arthashastra",
-      "text": "Can declare a War of Territorial Expansion with Military Training, instead of Mobilization. +2  Movement and +5  Combat Strength for all units for the next 10 turns after declaring a War of Territorial Expansion.\n"
+      "text": "Can declare a War of Territorial Expansion with Military Training, instead of Mobilization. +2  Movement and +5  Combat Strength for all units for the next 10 turns after declaring a War of Territorial Expansion."
     },
     "agenda": {
       "name": "Maurya Empire",
@@ -96,11 +108,11 @@
     }
   },
   {
-    "name": "Cleopatra",
-    "civ": "Egyptian",
+    "name": "Cleopatra (Egyptian)",
+    "civ": "Egypt",
     "ability": {
       "name": "Mediterranean's Bride",
-      "text": "International  Trade Routes grant +4  Gold.  Trade Routes sent to Egypt from other civilizations provide +2  Food for them and +2  Gold for Egypt.\n"
+      "text": "International  Trade Routes grant +4  Gold.  Trade Routes sent to Egypt from other civilizations provide +2  Food for them and +2  Gold for Egypt."
     },
     "agenda": {
       "name": "Queen of the Nile",
@@ -108,11 +120,23 @@
     }
   },
   {
+    "name": "Cleopatra (Ptolemaic)",
+    "civ": "Egypt",
+    "ability": {
+      "name": "Arrival of Hapi",
+      "text": "+1 Food and Culture for resources on Floodplains. Owned Floodplains grant +1 Appeal to adjacent tiles, instead of the usual -1."
+    },
+    "agenda": {
+      "name": "Basilike Ge",
+      "text": "Likes civilizations with high Food output. Dislikes those with low Food output."
+    }
+  },
+  {
     "name": "Cyrus",
-    "civ": "Persian",
+    "civ": "Persia",
     "ability": {
       "name": "Fall of Babylon",
-      "text": "+2  Movement for all units for the next 10 turns after declaring a Surprise War. Surprise Wars count as Formal Wars for the purposes of warmongering penalties and war weariness. Occupied cities have no penalties to their yields.\n"
+      "text": "+2  Movement for all units for the next 10 turns after declaring a Surprise War. Surprise Wars count as Formal Wars for the purposes of warmongering penalties and war weariness. Occupied cities have no penalties to their yields."
     },
     "agenda": {
       "name": "Opportunist",
@@ -121,10 +145,10 @@
   },
   {
     "name": "Dido",
-    "civ": "Phoenician",
+    "civ": "Phoenicia",
     "ability": {
       "name": "Founder of Carthage",
-      "text": "Cities with a Cothon gain the unique Move Capital project, which moves the Phoenician  Capital capital to that city. Gains +1  Trade Route capacity after building the Government Plaza or any Government Plaza building. +50%  Production towards  Districts in the city with the Government Plaza.\n"
+      "text": "Cities with a Cothon gain the unique Move Capital project, which moves the Phoenician  Capital capital to that city. Gains +1  Trade Route capacity after building the Government Plaza or any Government Plaza building. +50%  Production towards  Districts in the city with the Government Plaza."
     },
     "agenda": {
       "name": "Sicilian Wars",
@@ -133,10 +157,22 @@
   },
   {
     "name": "Eleanor of Aquitaine",
-    "civ": "English",
+    "civ": "England",
     "ability": {
       "name": "Court of Love",
-      "text": "Each Great Work in her cities causes foreign cities within 9 tiles to lose 1 Loyalty per turn. Any foreign city that leaves its civilization due to loss of Loyalty and is receiving the most Loyalty pressure from Eleanor instantly joins her empire, instead of becoming a Free City.\n"
+      "text": "Each Great Work in her cities causes foreign cities within 9 tiles to lose 1 Loyalty per turn. Any foreign city that leaves its civilization due to loss of Loyalty and is receiving the most Loyalty pressure from Eleanor instantly joins her empire, instead of becoming a Free City."
+    },
+    "agenda": {
+      "name": "Angevin Empire",
+      "text": "Builds up the  Population of her cities, and likes those whose nearby cities also have a high  Population. Dislikes civilizations whose nearby cities have low  Population."
+    }
+  },
+  {
+    "name": "Eleanor of Aquitaine",
+    "civ": "France",
+    "ability": {
+      "name": "Court of Love",
+      "text": "Each Great Work in her cities causes foreign cities within 9 tiles to lose 1 Loyalty per turn. Any foreign city that leaves its civilization due to loss of Loyalty and is receiving the most Loyalty pressure from Eleanor instantly joins her empire, instead of becoming a Free City."
     },
     "agenda": {
       "name": "Angevin Empire",
@@ -145,10 +181,10 @@
   },
   {
     "name": "Elizabeth I",
-    "civ": "English",
+    "civ": "England",
     "ability": {
       "name": "Drake's Legacy",
-      "text": "+2  Trade Route capacity upon recruiting the first  Great Admiral.  Trade Routes to city-states gain +3  Gold for every specialty district at the origin city. +100% yields from plundering  Trade Routes.\n"
+      "text": "+2  Trade Route capacity upon recruiting the first  Great Admiral.  Trade Routes to city-states gain +3  Gold for every specialty district at the origin city. +100% yields from plundering  Trade Routes."
     },
     "agenda": {
       "name": "Trade Agreement",
@@ -157,10 +193,10 @@
   },
   {
     "name": "Frederick Barbarossa",
-    "civ": "German",
+    "civ": "Germany",
     "ability": {
       "name": "Holy Roman Emperor",
-      "text": "Gains an additional  Military policy slot in all Governments. +7  Combat Strength for all units when fighting city-states and their units.\n"
+      "text": "Gains an additional  Military policy slot in all Governments. +7  Combat Strength for all units when fighting city-states and their units."
     },
     "agenda": {
       "name": "Iron Crown",
@@ -169,10 +205,10 @@
   },
   {
     "name": "Gandhi",
-    "civ": "Indian",
+    "civ": "India",
     "ability": {
       "name": "Satyagraha",
-      "text": "+5  Faith for each met civilization (including India) that has founded a Religion and is not at war. Enemies receive double war weariness from fighting against Gandhi.\n"
+      "text": "+5  Faith for each met civilization (including India) that has founded a Religion and is not at war. Enemies receive double war weariness from fighting against Gandhi."
     },
     "agenda": {
       "name": "Peacekeeper",
@@ -181,10 +217,10 @@
   },
   {
     "name": "Genghis Khan",
-    "civ": "Mongolian",
+    "civ": "Mongolia",
     "ability": {
       "name": "Mongol Horde",
-      "text": "Cavalry class units gain +3  Combat Strength and have a chance to capture defeated cavalry class enemy units.\n"
+      "text": "Cavalry class units gain +3  Combat Strength and have a chance to capture defeated cavalry class enemy units."
     },
     "agenda": {
       "name": "Horse Lord",
@@ -193,10 +229,10 @@
   },
   {
     "name": "Gilgamesh",
-    "civ": "Sumerian",
+    "civ": "Sumeria",
     "ability": {
       "name": "Adventures of Enkidu / Legacy of Enkidu (Heroes & Legends only)",
-      "text": "May declare war on any civilization at war with an ally without warmonger penalties. When at war with a common enemy, Sumerian and allied units share pillage rewards and combat experience if within 5 tiles of each other.\n"
+      "text": "May declare war on any civilization at war with an ally without warmonger penalties. When at war with a common enemy, Sumerian and allied units share pillage rewards and combat experience if within 5 tiles of each other."
     },
     "agenda": {
       "name": "Ally of Enkidu",
@@ -205,10 +241,10 @@
   },
   {
     "name": "Gitarja",
-    "civ": "Indonesian",
+    "civ": "Indonesia",
     "ability": {
       "name": "Exalted Goddess of the Three Worlds",
-      "text": "May purchase naval units with  Faith. Religious units pay no movement cost to embark or disembark. City Centers adjacent to Coast or Lake tiles gain +2  Faith.\n"
+      "text": "May purchase naval units with  Faith. Religious units pay no movement cost to embark or disembark. City Centers adjacent to Coast or Lake tiles gain +2  Faith."
     },
     "agenda": {
       "name": "Archipelagic State",
@@ -217,10 +253,10 @@
   },
   {
     "name": "Gorgo",
-    "civ": "Greek",
+    "civ": "Greece",
     "ability": {
       "name": "Thermopylae",
-      "text": "Killing a unit provides  Culture equal to 50% of its  Combat Strength. All units gain +1  Combat Strength for every active Military Policy card in the current government.\n"
+      "text": "Killing a unit provides  Culture equal to 50% of its  Combat Strength. All units gain +1  Combat Strength for every active Military Policy card in the current government."
     },
     "agenda": {
       "name": "With Your Shield Or On It",
@@ -229,10 +265,10 @@
   },
   {
     "name": "Hammurabi",
-    "civ": "Babylonian",
+    "civ": "Babylonia",
     "ability": {
       "name": "Ninu Ilu Sirum",
-      "text": "Upon building each type of specialty  District, except the Government Plaza, for the first time, instantly receives the building with the lowest  Production cost that can be built in that district. Upon building any other district for the first time, receives a free  Envoy.\n"
+      "text": "Upon building each type of specialty  District, except the Government Plaza, for the first time, instantly receives the building with the lowest  Production cost that can be built in that district. Upon building any other district for the first time, receives a free  Envoy."
     },
     "agenda": {
       "name": "Cradle of Civilization",
@@ -240,11 +276,11 @@
     }
   },
   {
-    "name": "Harald Hardrada",
-    "civ": "Norwegian",
+    "name": "Harald Hardrada (Konge)",
+    "civ": "Norway",
     "ability": {
       "name": "Thunderbolt of the North",
-      "text": "+50%  Production toward naval melee units. All naval melee units gain the ability to perform Coastal Raids. Gains the Viking Longship unique unit with Sailing.\n"
+      "text": "+50%  Production toward naval melee units. All naval melee units gain the ability to perform Coastal Raids. Gains the Viking Longship unique unit with Sailing."
     },
     "agenda": {
       "name": "Last Viking King",
@@ -252,11 +288,23 @@
     }
   },
   {
+    "name": "Harald Hardrada (Varangian)",
+    "civ": "Norway",
+    "ability": {
+      "name": "Varangian Guard",
+      "text": "Levying city-state units costs 75% less Gold. All units pay 2 less maintenance. Killing a unit with a levied unit grants Faith, Culture, and Science equal to 50% of the defeated unit's Strength Combat Strength. +1 Influence points Influence point per turn from each Stave Church."
+    },
+    "agenda": {
+      "name": "Harald's Saga",
+      "text": "Likes civilizations that ally with city-states. Dislikes civilizations that ignore alliances with city-states."
+    }
+  },
+  {
     "name": "Hojo Tokimune",
-    "civ": "Japanese",
+    "civ": "Japan",
     "ability": {
       "name": "Divine Wind",
-      "text": "+5  Combat Strength for land units and naval units fighting on coastal and shallow water tiles. Encampment, Holy Site and Theater Square districts are built in half the time.\n"
+      "text": "+5  Combat Strength for land units and naval units fighting on coastal and shallow water tiles. Encampment, Holy Site and Theater Square districts are built in half the time."
     },
     "agenda": {
       "name": "Bushido",
@@ -265,10 +313,10 @@
   },
   {
     "name": "Jadwiga",
-    "civ": "Polish",
+    "civ": "Poland",
     "ability": {
       "name": "Lithuanian Union",
-      "text": "Taking territory from a foreign city with a Culture Bomb converts it to Poland's religion.  Relics grant +4  Gold, +2  Culture and +2  Faith. Holy Sites receive a +1 adjacency bonus from districts, instead of +0.5.\n"
+      "text": "Taking territory from a foreign city with a Culture Bomb converts it to Poland's religion.  Relics grant +4  Gold, +2  Culture and +2  Faith. Holy Sites receive a +1 adjacency bonus from districts, instead of +0.5."
     },
     "agenda": {
       "name": "Saint",
@@ -280,7 +328,7 @@
     "civ": "Khmer",
     "ability": {
       "name": "Monasteries of the King",
-      "text": "Holy Sites grant  Food equal to their adjacency bonus, receive a +2 adjacency bonus from Rivers, grant 2  Housing if built next to a River, and trigger a Culture Bomb when built, claiming surrounding tiles.\n"
+      "text": "Holy Sites grant  Food equal to their adjacency bonus, receive a +2 adjacency bonus from Rivers, grant 2  Housing if built next to a River, and trigger a Culture Bomb when built, claiming surrounding tiles."
     },
     "agenda": {
       "name": "An End to Suffering",
@@ -289,10 +337,10 @@
   },
   {
     "name": "Jo\u00e3o III",
-    "civ": "Portuguese",
+    "civ": "Portugal",
     "ability": {
       "name": "Porta do Cerco",
-      "text": "+1  Sight for all units. Meeting another civilization grants +1  Trade Route capacity. Gains Open Borders with all city-states.\n"
+      "text": "+1  Sight for all units. Meeting another civilization grants +1  Trade Route capacity. Gains Open Borders with all city-states."
     },
     "agenda": {
       "name": "Navigator's Legacy",
@@ -301,10 +349,10 @@
   },
   {
     "name": "John Curtin",
-    "civ": "Australian",
+    "civ": "Australia",
     "ability": {
       "name": "Citadel of Civilization",
-      "text": "+100%  Production if they have either received a declaration of war in the past 10 turns or liberated a city in the past 20 turns.\n"
+      "text": "+100%  Production if they have either received a declaration of war in the past 10 turns or liberated a city in the past 20 turns."
     },
     "agenda": {
       "name": "Perpetually on Guard",
@@ -313,10 +361,10 @@
   },
   {
     "name": "Julius Caesar",
-    "civ": "Roman",
+    "civ": "Rome",
     "ability": {
       "name": "Veni, Vidi, Vici",
-      "text": "Gains 300  Gold after conquering a city for the first time, and after earning  Gold from a Barbarian Outpost. Both amounts become 500  Gold after researching Metal Casting and 700  Gold after Steel (on Standard speed). Units gain 5  Combat Strength and receive full experience when fighting Barbarians.\n"
+      "text": "Gains 300  Gold after conquering a city for the first time, and after earning  Gold from a Barbarian Outpost. Both amounts become 500  Gold after researching Metal Casting and 700  Gold after Steel (on Standard speed). Units gain 5  Combat Strength and receive full experience when fighting Barbarians."
     },
     "agenda": {
       "name": "Gallic Wars",
@@ -325,10 +373,10 @@
   },
   {
     "name": "Kristina",
-    "civ": "Swedish",
+    "civ": "Sweden",
     "ability": {
       "name": "Minerva of the North",
-      "text": "Buildings with at least three Great Work slots and wonders with at least two Great Work slots are automatically themed when all slots are filled. Gains the Queen's Bibliotheque unique building in the Government Plaza.\n"
+      "text": "Buildings with at least three Great Work slots and wonders with at least two Great Work slots are automatically themed when all slots are filled. Gains the Queen's Bibliotheque unique building in the Government Plaza."
     },
     "agenda": {
       "name": "Bibliophile",
@@ -337,10 +385,22 @@
   },
   {
     "name": "Kublai Khan",
-    "civ": "Chinese",
+    "civ": "China",
     "ability": {
       "name": "Gerege",
-      "text": "Gains an additional  Economic policy slot in all Governments. Gains a random  Eureka and  Inspiration upon first establishing a  Trading Post in another major civilization's city.\n"
+      "text": "Gains an additional  Economic policy slot in all Governments. Gains a random  Eureka and  Inspiration upon first establishing a  Trading Post in another major civilization's city."
+    },
+    "agenda": {
+      "name": "Pax Mongolica",
+      "text": "Likes civilizations with a strong military and  Gold output. Dislikes those who have a weak military or low  Gold income."
+    }
+  },
+  {
+    "name": "Kublai Khan",
+    "civ": "Mongolia",
+    "ability": {
+      "name": "Gerege",
+      "text": "Gains an additional  Economic policy slot in all Governments. Gains a random  Eureka and  Inspiration upon first establishing a  Trading Post in another major civilization's city."
     },
     "agenda": {
       "name": "Pax Mongolica",
@@ -352,7 +412,7 @@
     "civ": "M\u0101ori",
     "ability": {
       "name": "Kupe's Voyage",
-      "text": "Starts the game in the Ocean. +2  Science and +2  Culture per turn before the first city is settled. Their first settled city receives a free Builder and +1  Population. The Palace grants +3  Housing and +1  Amenity.\n"
+      "text": "Starts the game in the Ocean. +2  Science and +2  Culture per turn before the first city is settled. Their first settled city receives a free Builder and +1  Population. The Palace grants +3  Housing and +1  Amenity."
     },
     "agenda": {
       "name": "Kaitiakitanga",
@@ -361,10 +421,10 @@
   },
   {
     "name": "Lady Six Sky",
-    "civ": "Mayan",
+    "civ": "Maya",
     "ability": {
       "name": "Ix Mutal Ajaw",
-      "text": "Non- Capital cities within 6 tiles of the  Capital gain +10% to all yields and receive a Builder when founded, while cities more than 6 tiles away receive -15% to all yields. +5  Combat Strength for all units within six tiles of the Mayan  Capital.\n"
+      "text": "Non- Capital cities within 6 tiles of the  Capital gain +10% to all yields and receive a Builder when founded, while cities more than 6 tiles away receive -15% to all yields. +5  Combat Strength for all units within six tiles of the Mayan  Capital."
     },
     "agenda": {
       "name": "Solitary",
@@ -376,7 +436,7 @@
     "civ": "Mapuche",
     "ability": {
       "name": "Swift Hawk",
-      "text": "+10  Combat Strength when fighting civilizations that are in a Golden or Heroic Age, or Free Cities. Defeating an enemy unit within the borders of an enemy city causes that city to lose 20 Loyalty, or 40 Loyalty if that civilization is in a Golden or Heroic Age.\n"
+      "text": "+10  Combat Strength when fighting civilizations that are in a Golden or Heroic Age, or Free Cities. Defeating an enemy unit within the borders of an enemy city causes that city to lose 20 Loyalty, or 40 Loyalty if that civilization is in a Golden or Heroic Age."
     },
     "agenda": {
       "name": "Spirit of Tucapel",
@@ -385,10 +445,10 @@
   },
   {
     "name": "Ludwig II",
-    "civ": "German",
+    "civ": "Germany",
     "ability": {
       "name": "Swan King",
-      "text": "Wonders, even unfinished, receive a +2  Culture bonus from each adjacent  District. All  Culture adjacency bonuses provide  Tourism after researching Castles.\n"
+      "text": "Wonders, even unfinished, receive a +2  Culture bonus from each adjacent  District. All  Culture adjacency bonuses provide  Tourism after researching Castles."
     },
     "agenda": {
       "name": "Eternal Enigma",
@@ -397,10 +457,10 @@
   },
   {
     "name": "Mansa Musa",
-    "civ": "Malian",
+    "civ": "Mali",
     "ability": {
       "name": "Sahel Merchants",
-      "text": "International  Trade Routes gain +1  Gold for every flat Desert tile in the sending city. Entering a Golden Age permanently grants +1  Trade Route capacity.\n"
+      "text": "International  Trade Routes gain +1  Gold for every flat Desert tile in the sending city. Entering a Golden Age permanently grants +1  Trade Route capacity."
     },
     "agenda": {
       "name": "Lord of the Mines",
@@ -409,10 +469,10 @@
   },
   {
     "name": "Matthias Corvinus",
-    "civ": "Hungarian",
+    "civ": "Hungary",
     "ability": {
       "name": "Raven King",
-      "text": "Levied city-state units receive +2  Movement and +5  Combat Strength, and can be upgraded at a 75% discount in  Gold or resources. Levying troops from a city-state grants 2  Envoys with that city-state. Gains the Black Army unique unit with Castles.\n"
+      "text": "Levied city-state units receive +2  Movement and +5  Combat Strength, and can be upgraded at a 75% discount in  Gold or resources. Levying troops from a city-state grants 2  Envoys with that city-state. Gains the Black Army unique unit with Castles."
     },
     "agenda": {
       "name": "Raven Banner",
@@ -421,10 +481,10 @@
   },
   {
     "name": "Menelik II",
-    "civ": "Ethiopian",
+    "civ": "Ethiopia",
     "ability": {
       "name": "Council of Ministers",
-      "text": "Ethiopian cities founded on Hills receive  Science and  Culture equal to 15% of their  Faith output. +4  Combat Strength for all units when fighting on hills.\n"
+      "text": "Ethiopian cities founded on Hills receive  Science and  Culture equal to 15% of their  Faith output. +4  Combat Strength for all units when fighting on hills."
     },
     "agenda": {
       "name": "Ethiopian Highlands",
@@ -436,7 +496,7 @@
     "civ": "Aztec",
     "ability": {
       "name": "Gifts for the Tlatoani",
-      "text": "Improved Luxury resources provide an  Amenity to 2 extra cities. Military units receive +1  Combat Strength for each different improved Luxury resource in Aztec territory.\n"
+      "text": "Improved Luxury resources provide an  Amenity to 2 extra cities. Military units receive +1  Combat Strength for each different improved Luxury resource in Aztec territory."
     },
     "agenda": {
       "name": "Tlatoani",
@@ -445,10 +505,10 @@
   },
   {
     "name": "Mvemba a Nzinga",
-    "civ": "Kongolese",
+    "civ": "Kongo",
     "ability": {
       "name": "Religious Convert",
-      "text": "May not build Holy Sites or found a religion, but receives all the beliefs of any religion that has established itself as Kongo's majority religion, not just the Follower beliefs. Building a Mbanza or Theater Square grants a free Apostle of the city's majority religion.\n"
+      "text": "May not build Holy Sites or found a religion, but receives all the beliefs of any religion that has established itself as Kongo's majority religion, not just the Follower beliefs. Building a Mbanza or Theater Square grants a free Apostle of the city's majority religion."
     },
     "agenda": {
       "name": "Enthusiastic Disciple",
@@ -457,10 +517,10 @@
   },
   {
     "name": "Nader Shah",
-    "civ": "Persian",
+    "civ": "Persia",
     "ability": {
       "name": "Sword of Persia",
-      "text": "+5  Combat Strength for all units when attacking full health units. Cities not founded by Nader Shah gain +2  Faith and +3  Gold on domestic  Trade Routes.\n"
+      "text": "+5  Combat Strength for all units when attacking full health units. Cities not founded by Nader Shah gain +2  Faith and +3  Gold on domestic  Trade Routes."
     },
     "agenda": {
       "name": "Jazayerchi",
@@ -469,10 +529,10 @@
   },
   {
     "name": "Nzinga Mbande",
-    "civ": "Kongolese",
+    "civ": "Kongo",
     "ability": {
       "name": "Queen of Ndongo and Mtamba",
-      "text": "Cities on the same continent as the  Capital (including the  Capital) receive +10% to all yields, while cities on another continent receive -15% to all yields.\n"
+      "text": "Cities on the same continent as the  Capital (including the  Capital) receive +10% to all yields, while cities on another continent receive -15% to all yields."
     },
     "agenda": {
       "name": "Decolonization",
@@ -481,10 +541,10 @@
   },
   {
     "name": "Pachacuti",
-    "civ": "Incan",
+    "civ": "Inca",
     "ability": {
       "name": "Qhapaq \u00d1an",
-      "text": "Domestic  Trade Routes gain +1  Food for every Mountain tile in the origin city. Gains the Qhapaq \u00d1an unique improvement with Foreign Trade.\n"
+      "text": "Domestic  Trade Routes gain +1  Food for every Mountain tile in the origin city. Gains the Qhapaq \u00d1an unique improvement with Foreign Trade."
     },
     "agenda": {
       "name": "Sapa Inca",
@@ -493,10 +553,10 @@
   },
   {
     "name": "Pedro II",
-    "civ": "Brazilian",
+    "civ": "Brazil",
     "ability": {
       "name": "Magnanimous",
-      "text": "Recruiting or patronizing a  Great Person refunds 20% of their point cost.\n"
+      "text": "Recruiting or patronizing a  Great Person refunds 20% of their point cost."
     },
     "agenda": {
       "name": "Patron of the Arts",
@@ -505,10 +565,10 @@
   },
   {
     "name": "Pericles",
-    "civ": "Greek",
+    "civ": "Greece",
     "ability": {
       "name": "Surrounded by Glory",
-      "text": "+5%  Culture per city-state Greece has Suzerainty over.\n"
+      "text": "+5%  Culture per city-state Greece has Suzerainty over."
     },
     "agenda": {
       "name": "Delian League",
@@ -517,10 +577,10 @@
   },
   {
     "name": "Peter",
-    "civ": "Russian",
+    "civ": "Russia",
     "ability": {
       "name": "The Grand Embassy",
-      "text": " Trade Routes to more advanced civilizations grant Russia +1  Science for every three technologies that civilization is ahead of them, and +1  Culture for every three civics.\n"
+      "text": " Trade Routes to more advanced civilizations grant Russia +1  Science for every three technologies that civilization is ahead of them, and +1  Culture for every three civics."
     },
     "agenda": {
       "name": "Westernizer",
@@ -529,10 +589,10 @@
   },
   {
     "name": "Philip II",
-    "civ": "Spanish",
+    "civ": "Spain",
     "ability": {
       "name": "El Escorial",
-      "text": "Inquisitors can Remove Heresy one extra time. Combat and religious units have a bonus of +5  Combat Strength against players following other religions.\n"
+      "text": "Inquisitors can Remove Heresy one extra time. Combat and religious units have a bonus of +5  Combat Strength against players following other religions."
     },
     "agenda": {
       "name": "Counter Reformer",
@@ -544,7 +604,7 @@
     "civ": "Cree",
     "ability": {
       "name": "Favorable Terms",
-      "text": "All Alliance types provide Shared Visibility.  Trade Routes grant +1  Food in the sending city and +1  Gold in the receiving city per Camp or Pasture in the receiving city.\n"
+      "text": "All Alliance types provide Shared Visibility.  Trade Routes grant +1  Food in the sending city and +1  Gold in the receiving city per Camp or Pasture in the receiving city."
     },
     "agenda": {
       "name": "Iron Confederacy",
@@ -552,11 +612,11 @@
     }
   },
   {
-    "name": "Qin Shi Huang",
-    "civ": "Chinese",
+    "name": "Qin Shi Huang (Mandate of Heaven)",
+    "civ": "China",
     "ability": {
       "name": "The First Emperor",
-      "text": "Builders receive an additional build charge. Can spend Builder charges to complete 15% of the  Production cost for Ancient and Classical wonders.\n"
+      "text": "Builders receive an additional build charge. Can spend Builder charges to complete 15% of the  Production cost for Ancient and Classical wonders."
     },
     "agenda": {
       "name": "Wall of 10,000 Li",
@@ -564,11 +624,23 @@
     }
   },
   {
+    "name": "Qin Shi Huang (Unifier)",
+    "civ": "China",
+    "ability": {
+      "name": "Thirty-Six Stratagems",
+      "text": "All land melee units gain access to the unique Convert Barbarians action, which consumes the unit to transform all adjacent Barbarian units into Chinese units."
+    },
+    "agenda": {
+      "name": "Sihai",
+      "text": "Wants all Barbarians following his side, and does not like civilizations that destroy Barbarian Outposts. Likes civilizations that leave Barbarian Outposts alone."
+    }
+  },
+  {
     "name": "Ramses II",
-    "civ": "Egyptian",
+    "civ": "Egypt",
     "ability": {
       "name": "Abu Simbel",
-      "text": "Receives  Culture equal to 15% of the  Production cost after completing a building, and 30% after completing a wonder.\n"
+      "text": "Receives  Culture equal to 15% of the  Production cost after completing a building, and 30% after completing a wonder."
     },
     "agenda": {
       "name": "Ma'at",
@@ -577,10 +649,10 @@
   },
   {
     "name": "Robert the Bruce",
-    "civ": "Scottish",
+    "civ": "Scotland",
     "ability": {
       "name": "Bannockburn",
-      "text": "Can declare a War of Liberation with Defensive Tactics, instead of Diplomatic Service. +100%  Production and +2  Movement for all units for the next 10 turns after declaring a War of Liberation.\n"
+      "text": "Can declare a War of Liberation with Defensive Tactics, instead of Diplomatic Service. +100%  Production and +2  Movement for all units for the next 10 turns after declaring a War of Liberation."
     },
     "agenda": {
       "name": "Flower of Scotland",
@@ -588,11 +660,11 @@
     }
   },
   {
-    "name": "Saladin",
-    "civ": "Arabian",
+    "name": "Saladin (Vizier)",
+    "civ": "Arabia",
     "ability": {
       "name": "Righteousness of the Faith",
-      "text": "The Worship building for Arabia's Religion is 90% cheaper to purchase with  Faith. Arabian cities with that building gain +10%  Science,  Faith, and  Culture.\n"
+      "text": "The Worship building for Arabia's Religion is 90% cheaper to purchase with  Faith. Arabian cities with that building gain +10%  Science,  Faith, and  Culture."
     },
     "agenda": {
       "name": "Ayyubid Dynasty",
@@ -600,11 +672,23 @@
     }
   },
   {
+    "name": "Saladin (Sultan)",
+    "civ": "Arabia",
+    "ability": {
+      "name": "The Victorious",
+      "text": "+100% Flanking and Support bonus to all Combat and Religious units."
+    },
+    "agenda": {
+      "name": "Sultan of Egypt and Syria",
+      "text": "Likes civilizations who have founded a religion but not brought it to his cities. Dislikes those that bring their religion to his cities."
+    }
+  },
+  {
     "name": "Sejong",
-    "civ": "Korean",
+    "civ": "Korea",
     "ability": {
       "name": "Hangul",
-      "text": "Upon completing the first technology from a new era, receives  Culture equal to double the current  Science output per turn.\n"
+      "text": "Upon completing the first technology from a new era, receives  Culture equal to double the current  Science output per turn."
     },
     "agenda": {
       "name": "Neo-Confucianism",
@@ -613,10 +697,10 @@
   },
   {
     "name": "Seondeok",
-    "civ": "Korean",
+    "civ": "Korea",
     "ability": {
       "name": "Hwarang",
-      "text": "Cities with an established Governor receive +3%  Culture and +3%  Science for each promotion that Governor has.\n"
+      "text": "Cities with an established Governor receive +3%  Culture and +3%  Science for each promotion that Governor has."
     },
     "agenda": {
       "name": "Cheomseongdae",
@@ -628,7 +712,7 @@
     "civ": "Zulu",
     "ability": {
       "name": "Amabutho",
-      "text": "May form Corps with Mercenaries, instead of Nationalism, and Armies with Nationalism, instead of Mobilization. Corps and Armies gain an additional +5  Combat Strength.\n"
+      "text": "May form Corps with Mercenaries, instead of Nationalism, and Armies with Nationalism, instead of Mobilization. Corps and Armies gain an additional +5  Combat Strength."
     },
     "agenda": {
       "name": "Horn, Chest, Loins",
@@ -637,10 +721,10 @@
   },
   {
     "name": "Sim\u00f3n Bol\u00edvar",
-    "civ": "Gran Colombian",
+    "civ": "Gran Colombia",
     "ability": {
       "name": "Campa\u00f1a Admirable",
-      "text": "Entering a new era grants a Comandante General, a unique type of  Great Person.\n"
+      "text": "Entering a new era grants a Comandante General, a unique type of  Great Person."
     },
     "agenda": {
       "name": "Carabobo",
@@ -648,11 +732,11 @@
     }
   },
   {
-    "name": "Suleiman",
+    "name": "Suleiman (Kanuni)",
     "civ": "Ottoman",
     "ability": {
       "name": "Grand Vizier",
-      "text": "Has access to a unique Governor, Ibrahim, the Grand Vizier. Gains the Janissary unique unit and 1  Governor title with Gunpowder.\n"
+      "text": "Has access to a unique Governor, Ibrahim, the Grand Vizier. Gains the Janissary unique unit and 1  Governor title with Gunpowder."
     },
     "agenda": {
       "name": "Lawgiver",
@@ -660,11 +744,23 @@
     }
   },
   {
+    "name": "Suleiman (Muhteşem)",
+    "civ": "Ottoman",
+    "ability": {
+      "name": "The Magnificent",
+      "text": "+15% Science and Culture when in a Golden Age or Heroic Age. +4 Strength Combat Strength when not in a Golden Age or Heroic Age against Civilizations who are also not in a Golden Age or Heroic Age."
+    },
+    "agenda": {
+      "name": "Golden Age of Suleiman",
+      "text": "Likes civilizations that earn a Golden Age. Dislikes those in Dark Ages."
+    }
+  },
+  {
     "name": "Sundiata Keita",
-    "civ": "Malian",
+    "civ": "Mali",
     "ability": {
       "name": "Sogolon",
-      "text": "Patronage of  Great People costs 20% less  Gold. Markets gain 2 slots for  Great Works of Writing.  Great Works of Writing grant +4  Gold and +2  Production.\n"
+      "text": "Patronage of  Great People costs 20% less  Gold. Markets gain 2 slots for  Great Works of Writing.  Great Works of Writing grant +4  Gold and +2  Production."
     },
     "agenda": {
       "name": "Lion of Mali",
@@ -673,10 +769,10 @@
   },
   {
     "name": "Tamar",
-    "civ": "Georgian",
+    "civ": "Georgia",
     "ability": {
       "name": "Glory of the World, Kingdom and Faith",
-      "text": "Gains  Faith from combat victories equal to 50% of the  Combat Strength of the defeated unit. Each  Envoy sent to a city-state of Georgia's majority Religion counts as two  Envoys.\n"
+      "text": "Gains  Faith from combat victories equal to 50% of the  Combat Strength of the defeated unit. Each  Envoy sent to a city-state of Georgia's majority Religion counts as two  Envoys."
     },
     "agenda": {
       "name": "Narikala Fortress",
@@ -684,11 +780,11 @@
     }
   },
   {
-    "name": "Teddy Roosevelt",
-    "civ": "American",
+    "name": "Teddy Roosevelt (Rough Rider)",
+    "civ": "America",
     "ability": {
       "name": "Roosevelt Corollary",
-      "text": "+5  Combat Strength for all units inside America's home continent. +1 Appeal to all tiles in cities with a National Park. Gains the Rough Rider unique unit with Rifling.\n"
+      "text": "+5  Combat Strength for all units inside America's home continent. +1 Appeal to all tiles in cities with a National Park. Gains the Rough Rider unique unit with Rifling."
     },
     "agenda": {
       "name": "Big Stick Policy",
@@ -696,11 +792,23 @@
     }
   },
   {
+    "name": "Teddy Roosevelt (Bull Moose)",
+    "civ": "America",
+    "ability": {
+      "name": "Antiquities and Parks",
+      "text": "Tiles with Breathtaking Appeal gain +2 Science when adjacent to a Natural Wonder or Mountain, and +2 Culture when adjacent to a Wonder or Woods. +1 Appeal in all tiles in cities with a National Park."
+    },
+    "agenda": {
+      "name": "The Bull Moose",
+      "text": "Tries to settle near high Appeal tiles, and builds District and Wonders to maximize Appeal. Likes civilizations with many high Appeal tiles in their territory, and dislikes those with many low Appeal tiles."
+    }
+  },
+  {
     "name": "Theodora",
-    "civ": "Byzantine",
+    "civ": "Byzantium",
     "ability": {
       "name": "Metanoia",
-      "text": "Holy Sites provide  Culture equal to their adjacency bonus. Farms provide a +1  Faith adjacency to Hippodromes and Holy Sites.\n"
+      "text": "Holy Sites provide  Culture equal to their adjacency bonus. Farms provide a +1  Faith adjacency to Hippodromes and Holy Sites."
     },
     "agenda": {
       "name": "New Rome",
@@ -709,10 +817,10 @@
   },
   {
     "name": "Tokugawa",
-    "civ": "Japanese",
+    "civ": "Japan",
     "ability": {
       "name": "Bakuhan",
-      "text": "International  Trade Routes receive -25% yields and  Tourism, but domestic  Trade Routes gain +1  Culture, +1  Science, and +2  Gold for every specialty district at the destination. Cities within 6 tiles of Japan's  Capital gain +4  Amenities and, after researching Flight, +1  Tourism for every specialty district.\n"
+      "text": "International  Trade Routes receive -25% yields and  Tourism, but domestic  Trade Routes gain +1  Culture, +1  Science, and +2  Gold for every specialty district at the destination. Cities within 6 tiles of Japan's  Capital gain +4  Amenities and, after researching Flight, +1  Tourism for every specialty district."
     },
     "agenda": {
       "name": "Sakoku",
@@ -721,10 +829,10 @@
   },
   {
     "name": "Tomyris",
-    "civ": "Scythian",
+    "civ": "Scythia",
     "ability": {
       "name": "Killer of Cyrus",
-      "text": "+5  Combat Strength for all units when attacking wounded units. Units heal up to 30 hit points after killing an enemy unit.\n"
+      "text": "+5  Combat Strength for all units when attacking wounded units. Units heal up to 30 hit points after killing an enemy unit."
     },
     "agenda": {
       "name": "Backstab Averse",
@@ -733,10 +841,10 @@
   },
   {
     "name": "Trajan",
-    "civ": "Roman",
+    "civ": "Rome",
     "ability": {
       "name": "Trajan's Column",
-      "text": "All founded cities start with a free building in the City Center. (A Monument if the game is started in the Ancient Era)\n"
+      "text": "All founded cities start with a free building in the City Center. (A Monument if the game is started in the Ancient Era)"
     },
     "agenda": {
       "name": "Optimus Princeps",
@@ -744,11 +852,11 @@
     }
   },
   {
-    "name": "Victoria",
-    "civ": "English",
+    "name": "Victoria (Age of Empire)",
+    "civ": "England",
     "ability": {
       "name": "Pax Britannica",
-      "text": "Founding a city or building a Royal Navy Dockyard outside of England's home continent grants a free melee unit in that city. Gains the Redcoat unique unit with Military Science.\n"
+      "text": "Founding a city or building a Royal Navy Dockyard outside of England's home continent grants a free melee unit in that city. Gains the Redcoat unique unit with Military Science."
     },
     "agenda": {
       "name": "Sun Never Sets",
@@ -756,11 +864,23 @@
     }
   },
   {
+    "name": "Victoria (Age of Steam)",
+    "civ": "England",
+    "ability": {
+      "name": "Age of Steam",
+      "text": "+10% Production in cities for each Industrial Zone building in that city. +2 Production to all Strategic Resources."
+    },
+    "agenda": {
+      "name": "Industrial Revolution",
+      "text": "Likes civilizations with high Production. Dislikes those with low Production."
+    }
+  },
+  {
     "name": "Wilfrid Laurier",
-    "civ": "Canadian",
+    "civ": "Canada",
     "ability": {
       "name": "The Last Best West",
-      "text": "Can build Farms on Tundra tiles, and on Tundra Hills tiles with Civil Engineering. Snow, Snow Hills, Tundra Hills, and Tundra tiles cost 50% less  Gold to purchase. On those tiles, resources accumulate twice as fast, Mines and Lumber Mills receive +2  Production, and Camps and Farms receive +2  Food.\n"
+      "text": "Can build Farms on Tundra tiles, and on Tundra Hills tiles with Civil Engineering. Snow, Snow Hills, Tundra Hills, and Tundra tiles cost 50% less  Gold to purchase. On those tiles, resources accumulate twice as fast, Mines and Lumber Mills receive +2  Production, and Camps and Farms receive +2  Food."
     },
     "agenda": {
       "name": "Canadian Expeditionary Force",
@@ -769,10 +889,10 @@
   },
   {
     "name": "Wilhelmina",
-    "civ": "Dutch",
+    "civ": "Netherlands",
     "ability": {
       "name": "Radio Oranje",
-      "text": "Domestic  Trade Routes provide +2 Loyalty per turn for the starting city. +2  Culture for each   Trade Route sent to or received from a foreign civilization.\n"
+      "text": "Domestic  Trade Routes provide +2 Loyalty per turn for the starting city. +2  Culture for each   Trade Route sent to or received from a foreign civilization."
     },
     "agenda": {
       "name": "Billionaire",
@@ -781,10 +901,10 @@
   },
   {
     "name": "Wu Zetian",
-    "civ": "Chinese",
+    "civ": "China",
     "ability": {
       "name": "Manual of Entrapment",
-      "text": "Receives a free Spy with Defensive Tactics and Spies can be purchased with  Faith. Spies operate as if 1 level more experienced. Upon completing a successful offensive espionage mission on a foreign city, receives 100% of the  Science,  Faith and  Culture that city produced that turn.\n"
+      "text": "Receives a free Spy with Defensive Tactics and Spies can be purchased with  Faith. Spies operate as if 1 level more experienced. Upon completing a successful offensive espionage mission on a foreign city, receives 100% of the  Science,  Faith and  Culture that city produced that turn."
     },
     "agenda": {
       "name": "Court Intrigue",
@@ -793,10 +913,10 @@
   },
   {
     "name": "Yongle",
-    "civ": "Chinese",
+    "civ": "China",
     "ability": {
       "name": "Lijia",
-      "text": "All cities gain access to three unique Lijia projects, which can either convert 50% of their  Production into  Food or  Faith, or 100% of their  Production into  Gold.\n"
+      "text": "All cities gain access to three unique Lijia projects, which can either convert 50% of their  Production into  Food or  Faith, or 100% of their  Production into  Gold."
     },
     "agenda": {
       "name": "Yinding",

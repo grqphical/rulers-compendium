@@ -1,0 +1,617 @@
+[
+  {
+    "name": "American",
+    "leaders": [
+      "Teddy Roosevelt",
+      "Teddy Roosevelt (Bull Moose)",
+      "Teddy Roosevelt (Rough Rider)",
+      "Abraham Lincoln"
+    ],
+    "ability": {
+      "name": "Founding Fathers",
+      "text": "Government legacy bonuses accumulate in half the usual number of turns. All  Diplomatic policy slots in the current government are converted to  Wildcard slots. All  Diplomatic policy slots in the current government are converted to  Wildcard slots. +1  Diplomatic Favor per turn for each Wildcard slot in the current government."
+    },
+    "unit": "P-51 Mustang",
+    "infrastructure": "Film Studio"
+  },
+  {
+    "name": "Arabian",
+    "leaders": [
+      "Saladin (Vizier)",
+      "Saladin (Sultan)"
+    ],
+    "ability": {
+      "name": "The Last Prophet",
+      "text": "Automatically receives the final  Great Prophet when the next-to-last one is claimed (unless one has already been earned through other means). +1  Science per foreign city following Arabia's Religion."
+    },
+    "unit": "Mamluk",
+    "infrastructure": "Madrasa"
+  },
+  {
+    "name": "Australian",
+    "leaders": [
+      "John Curtin"
+    ],
+    "ability": {
+      "name": "Land Down Under",
+      "text": "+3  Housing in coastal cities. Building a Pasture triggers a Culture Bomb, claiming surrounding tiles. Campus, Commercial Hub, Holy Site, and Theater Square districts gain +1 to their yields in tiles with Charming Appeal, and +3 in tiles with Breathtaking Appeal."
+    },
+    "unit": "Digger",
+    "infrastructure": "Outback Station"
+  },
+  {
+    "name": "Aztec",
+    "leaders": [
+      "Montezuma"
+    ],
+    "ability": {
+      "name": "Legend of the Five Suns",
+      "text": "Can spend Builder charges to complete 20% of a district's  Production cost."
+    },
+    "unit": "Eagle Warrior",
+    "infrastructure": "Tlachtli"
+  },
+  {
+    "name": "Babylonian",
+    "leaders": [
+      "Hammurabi"
+    ],
+    "ability": {
+      "name": "Enuma Anu Enlil",
+      "text": " Eurekas instantly unlock their respective technologies. -50%  Science per turn."
+    },
+    "unit": "Sabum Kibittum",
+    "infrastructure": "Palgum"
+  },
+  {
+    "name": "Brazilian",
+    "leaders": [
+      "Pedro II",
+      "Copacabana"
+    ],
+    "ability": {
+      "name": "Amazon",
+      "text": "Rainforest tiles provide a +1 adjacency bonus for Campus, Commercial Hub, Holy Site, and Theater Square districts. Owned Rainforests provide +1 Appeal to adjacent tiles, instead of the usual -1."
+    },
+    "unit": "Minas Geraes",
+    "infrastructure": "Street Carnival"
+  },
+  {
+    "name": "Byzantine",
+    "leaders": [
+      "Basil II",
+      "Theodora"
+    ],
+    "ability": {
+      "name": "Taxis",
+      "text": "+3  Combat and  Religious Strength for all units for each Holy City converted to Byzantium's Religion (including Byzantium's own Holy City). Byzantium's Religion is spread to nearby cities when a unit from an enemy civilization or city-state is defeated. +1  Great Prophet point from Holy Sites."
+    },
+    "unit": "Dromon",
+    "infrastructure": "Hippodrome"
+  },
+  {
+    "name": "Canadian",
+    "leaders": [
+      "Wilfrid Laurier"
+    ],
+    "ability": {
+      "name": "Four Faces of Peace",
+      "text": "Cannot declare Surprise Wars or war on city-states. Surprise Wars cannot be declared on Canada. For every 100  Tourism earned, gain 1  Diplomatic Favor. +100%  Diplomatic Favor gained from successfully completing Emergencies or Scored Competitions."
+    },
+    "unit": "Mountie",
+    "infrastructure": "Ice Hockey Rink"
+  },
+  {
+    "name": "Chinese",
+    "leaders": [
+      "Qin Shi Huang (Mandate of Heaven)",
+      "Qin Shi Huang (Unifier)",
+      "Kublai Khan (Chinese)",
+      "Yongle",
+      "Wu Zetian"
+    ],
+    "ability": {
+      "name": "Dynastic Cycle",
+      "text": " Eurekas and  Inspirations provide an extra 10% of the  Science and  Culture cost for researching technologies and civics. Completing a Wonder grants a  Eureka and  Inspiration from that Wonder's era."
+    },
+    "unit": "Crouching Tiger",
+    "infrastructure": "Great Wall"
+  },
+  {
+    "name": "Cree",
+    "leaders": [
+      "Poundmaker"
+    ],
+    "ability": {
+      "name": "N\u00eehithaw",
+      "text": "Gains +1  Trade Route capacity and a free Trader with Pottery. Unclaimed tiles within three tiles of a Cree city come under Cree control when a Trader first moves into them."
+    },
+    "unit": "Okihtcitaw",
+    "infrastructure": "Mekewap"
+  },
+  {
+    "name": "Dutch",
+    "leaders": [
+      "Wilhelmina"
+    ],
+    "ability": {
+      "name": "Grote Rivieren ",
+      "text": "Rivers provide a +2 adjacency bonus for Campus, Theater Square, and Industrial Zone districts. Building a Harbor triggers a Culture Bomb, claiming surrounding tiles."
+    },
+    "unit": "De Zeven Provinci\u00ebn",
+    "infrastructure": "Polder"
+  },
+  {
+    "name": "Egyptian",
+    "leaders": [
+      "Cleopatra (Egyptian)",
+      "Cleopatra (Ptolemaic)",
+      "Ramses II"
+    ],
+    "ability": {
+      "name": "Iteru",
+      "text": "+15%  Production towards districts and wonders built next to a River. Floodplains do not prevent placement of districts and wonders."
+    },
+    "unit": "Maryannu Chariot Archer",
+    "infrastructure": "Sphinx"
+  },
+  {
+    "name": "English",
+    "leaders": [
+      "Victoria (Age of Empire)",
+      "Victoria (Age of Steam)",
+      "Eleanor of Aquitaine (English)",
+      "Elizabeth I"
+    ],
+    "ability": {
+      "name": "PLACEHOLDER",
+      "text": "PLACEHOLDER"
+    }
+  },
+  {
+    "name": "Ethiopian",
+    "leaders": [
+      "Menelik II"
+    ],
+    "ability": {
+      "name": "Aksumite Legacy",
+      "text": "Improved resource tiles receive +1  Faith for each copy of the resource the city owns. International  Trade Routes grant +0.5  Faith for each resource in the origin city. Can purchase Archaeologists and Archaeological Museums with  Faith."
+    },
+    "unit": "Oromo Cavalry",
+    "infrastructure": "Rock-Hewn Church"
+  },
+  {
+    "name": "French",
+    "leaders": [
+      "Catherine de Medici (Black Queen)",
+      "Catherine de Medici (Magnificence)",
+      "Eleanor of Aquitaine (French)"
+    ],
+    "ability": {
+      "name": "Grand Tour",
+      "text": "+20%  Production towards Medieval, Renaissance and Industrial Era Wonders. Double  Tourism from Wonders of any Era."
+    },
+    "unit": "Garde Imp\u00e9riale",
+    "infrastructure": "Ch\u00e2teau"
+  },
+  {
+    "name": "Gallic",
+    "leaders": [
+      "Ambiorix"
+    ],
+    "ability": {
+      "name": "Hallstatt Culture",
+      "text": "Mines gain +1  Culture, provide a +0.5 adjacency bonus for all districts and trigger a Culture Bomb when built, claiming surrounding unowned tiles. Specialty districts do not receive an adjacency bonus from other districts and cannot be built next to the City Center."
+    },
+    "unit": "Gaesatae",
+    "infrastructure": "Oppidum"
+  },
+  {
+    "name": "Georgian",
+    "leaders": [
+      "Tamar"
+    ],
+    "ability": {
+      "name": "Strength in Unity",
+      "text": "Dedications chosen at the beginning of a Golden Age or Heroic Age also grant their Normal Age bonuses towards improving Era Score, in addition to their regular bonuses. +50%  Production towards walls."
+    },
+    "unit": "Khevsur",
+    "infrastructure": "Tsikhe"
+  },
+  {
+    "name": "German",
+    "leaders": [
+      "Frederick Barbarossa",
+      "Ludwig II"
+    ],
+    "ability": {
+      "name": "Free Imperial Cities",
+      "text": "Each city can build one more specialty  District than the  Population limit would normally allow."
+    },
+    "unit": "U-Boat",
+    "infrastructure": "Hansa"
+  },
+  {
+    "name": "Gran Colombian",
+    "leaders": [
+      "Sim\u00f3n Bol\u00edvar"
+    ],
+    "ability": {
+      "name": "Ej\u00e9rcito Patriota",
+      "text": "+1  Movement for all units. Promoting a unit does not end that unit's turn."
+    },
+    "unit": "Llanero",
+    "infrastructure": "Hacienda"
+  },
+  {
+    "name": "Greek",
+    "leaders": [
+      "Pericles",
+      "Gorgo"
+    ],
+    "ability": {
+      "name": "Plato's Republic",
+      "text": "Gains an additional  Wildcard policy slot in all Governments."
+    },
+    "unit": "Hoplite",
+    "infrastructure": "Acropolis"
+  },
+  {
+    "name": "Hungarian",
+    "leaders": [
+      "Matthias Corvinus"
+    ],
+    "ability": {
+      "name": "Pearl of the Danube",
+      "text": "+50%  Production for districts and buildings built across a river from a City Center."
+    },
+    "unit": "Husz\u00e1r",
+    "infrastructure": "Thermal Bath"
+  },
+  {
+    "name": "Incan",
+    "leaders": [
+      "Pachacuti"
+    ],
+    "ability": {
+      "name": "Mit'a",
+      "text": "Citizens may work Mountain tiles. Mountain tiles provide +2  Production, and +1  Food for each adjacent Terrace Farm. Mountain tiles provide an additional +1  Production when Inca reaches the Industrial Era."
+    },
+    "unit": "Warak'aq",
+    "infrastructure": "Terrace Farm"
+  },
+  {
+    "name": "Indian",
+    "leaders": [
+      "Gandhi",
+      "Chandragupta"
+    ],
+    "ability": {
+      "name": "Dharma",
+      "text": "Indian cities receive the Follower Beliefs of all religions with at least one follower in them, not just the majority religion. "
+    },
+    "unit": "Varu",
+    "infrastructure": "Stepwell"
+  },
+  {
+    "name": "Indonesian",
+    "leaders": [
+      "Gitarja"
+    ],
+    "ability": {
+      "name": "Great Nusantara",
+      "text": "Coast and Lake tiles provide a +0.5 adjacency bonus for Holy Site, Campus, Industrial Zone, and Theater Square districts. Entertainment Complexes built adjacent to a Coast or Lake tile provide +1  Amenity."
+    },
+    "unit": "Jong",
+    "infrastructure": "Kampung"
+  },
+  {
+    "name": "Japanese",
+    "leaders": [
+      "Hojo Tokimune",
+      "Tokugawa"
+    ],
+    "ability": {
+      "name": "Meiji Restoration",
+      "text": "Districts receive a +1 adjacency bonus for each adjacent district, instead of +0.5."
+    },
+    "unit": "Samurai",
+    "infrastructure": "Electronics Factory"
+  },
+  {
+    "name": "Khmer",
+    "leaders": [
+      "Jayavarman VII"
+    ],
+    "ability": {
+      "name": "Grand Barays",
+      "text": "Cities with an Aqueduct receive +1  Amenity, and +1  Faith for every  Population. Farms receive +2  Food when adjacent to an Aqueduct, and +1  Faith when adjacent to a Holy Site."
+    },
+    "unit": "Domrey",
+    "infrastructure": "Prasat"
+  },
+  {
+    "name": "Kongolese",
+    "leaders": [
+      "Mvemba a Nzinga",
+      "Nzinga Mbande"
+    ],
+    "ability": {
+      "name": "Nkisi",
+      "text": " Relics,  Artifacts and  Sculptures grant +2  Food, +2  Production, +1  Faith, and +4  Gold. The Palace has four extra slots for Great Works. +50%  Great Artist,  Great Musician, and  Great Merchant points gained from all sources."
+    },
+    "unit": "Ngao Mbeba",
+    "infrastructure": "Mbanza"
+  },
+  {
+    "name": "Korean",
+    "leaders": [
+      "Seondeok",
+      "Sejong"
+    ],
+    "ability": {
+      "name": "Three Kingdoms",
+      "text": "Farms receive +1  Food and Mines receive +1  Science for each adjacent Seowon."
+    },
+    "unit": "Hwacha",
+    "infrastructure": "Seowon"
+  },
+  {
+    "name": "Macedonian",
+    "leaders": [
+      "Alexander"
+    ],
+    "ability": {
+      "name": "Hellenistic Fusion",
+      "text": "Conquering a city grants a free  Eureka for each Encampment and Campus district in the conquered city and a free  Inspiration for each Holy Site and Theater Square district."
+    },
+    "unit": "Hypaspist",
+    "infrastructure": "Basilikoi Paides"
+  },
+  {
+    "name": "Malian",
+    "leaders": [
+      "Mansa Musa",
+      "Sundiata Keita"
+    ],
+    "ability": {
+      "name": "Songs of the Jeli",
+      "text": "City Centers receive +1  Faith and +1  Food for every adjacent Desert and Desert Hills tile. Mines receive -1  Production and +4  Gold. May purchase Commercial Hub buildings with  Faith. -30%   Production towards buildings and units."
+    },
+    "unit": "Mandekalu Cavalry",
+    "infrastructure": "Suguba"
+  },
+  {
+    "name": "M\u0101ori",
+    "leaders": [
+      "Kupe"
+    ],
+    "ability": {
+      "name": "Mana",
+      "text": "Starts with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles. +5  Combat Strength and +2  Movement for embarked units. Unimproved Woods and Rainforests grant +1  Production, increasing to +2  Production with Mercantilism and +3  Production with Conservation. +1  Food from Fishing Boats. Building a Fishing Boat triggers a Culture Bomb, claiming surrounding tiles. Resources cannot be harvested.  Great Writers cannot be earned."
+    },
+    "unit": "Toa",
+    "infrastructure": "Marae"
+  },
+  {
+    "name": "Mapuche",
+    "leaders": [
+      "Lautaro"
+    ],
+    "ability": {
+      "name": "Toqui",
+      "text": "Cities with an established Governor gain +5%  Culture, +5%  Production, and +10% combat experience towards all units trained in the city. These numbers are tripled in cities not founded by the Mapuche. All cities within 9 tiles of a city with your Governor gain +4 Loyalty per turn towards your civilization."
+    },
+    "unit": "Mal\u00f3n Raider",
+    "infrastructure": "Chemamull"
+  },
+  {
+    "name": "Mayan",
+    "leaders": [
+      "Lady Six Sky"
+    ],
+    "ability": {
+      "name": "Mayab",
+      "text": "Cities do not receive additional  Housing from being adjacent to fresh water or coast. Cities gain +1  Amenity for each Luxury Resource adjacent to the City Center. Farms grant +1  Housing, +1  Production if adjacent to an Observatory, and +1  Gold."
+    },
+    "unit": "Hul'che",
+    "infrastructure": "Observatory"
+  },
+  {
+    "name": "Mongolian",
+    "leaders": [
+      "Genghis Khan",
+      "Kublai Khan (Mongolian)"
+    ],
+    "ability": {
+      "name": "\u00d6rt\u00f6\u00f6",
+      "text": "Sending a  Trade Route immediately creates a  Trading Post in the destination city, instead of when the  Trade Route is completed. Gains an extra level of  Diplomatic Visibility with civilizations that have a Mongolian  Trading Post. +6  Combat Strength for all units for each level of  Diplomatic Visibility Mongolia has over the other civilization, instead of the usual +3  Combat Strength."
+    },
+    "unit": "Keshig",
+    "infrastructure": "Ordu"
+  },
+  {
+    "name": "Norwegian",
+    "leaders": [
+      "Harald Hardrada (Konge)",
+      "Harald Hardrada (Varangian)"
+    ],
+    "ability": {
+      "name": "Knarr",
+      "text": "Norwegian units gain the ability to enter Ocean tiles with Shipbuilding, instead of Cartography, and pay no additional  Movement costs to embark or disembark. Naval melee units can heal in neutral territory."
+    },
+    "unit": "Berserker",
+    "infrastructure": "Stave Church"
+  },
+  {
+    "name": "Nubian",
+    "leaders": [
+      "Amanitore"
+    ],
+    "ability": {
+      "name": "Ta-Seti",
+      "text": "+30%  Production toward Ranged units. Ranged units gain +50% combat experience. +1  Production for Mines over strategic resources, and +2  Gold for Mines over bonus and luxury resources."
+    },
+    "unit": "P\u00edtati Archer",
+    "infrastructure": "Nubian Pyramid"
+  },
+  {
+    "name": "Ottoman",
+    "leaders": [
+      "Suleiman (Kanuni)",
+      "Suleiman (Muhte\u015fem)"
+    ],
+    "ability": {
+      "name": "Great Turkish Bombard",
+      "text": "+30%  Production toward Siege units. Siege units gain +5  Combat Strength when attacking defensible districts. Conquering a city doesn't cause that city to lose  Population. +1  Amenity and +4 Loyalty per turn for cities not founded by the Ottomans."
+    },
+    "unit": "Barbary Corsair",
+    "infrastructure": "Grand Bazaar"
+  },
+  {
+    "name": "Persian",
+    "leaders": [
+      "Cyrus",
+      "Nader Shah"
+    ],
+    "ability": {
+      "name": "Satrapies",
+      "text": "Gains +1  Trade Route capacity with Political Philosophy. Domestic  Trade Routes provide +2  Gold and +1  Culture. Roads built inside Persian territory are one level more advanced than usual."
+    },
+    "unit": "Immortal",
+    "infrastructure": "Pairidaeza"
+  },
+  {
+    "name": "Phoenician",
+    "leaders": [
+      "Dido"
+    ],
+    "ability": {
+      "name": "Mediterranean Colonies",
+      "text": "Starts with the  Eureka for Writing. Coastal cities founded by Phoenicia and in the same continent as their  Capital always have full Loyalty. Settlers receive +2  Movement and  Sight while embarked, and pay no  Movement costs to embark or disembark."
+    },
+    "unit": "Bireme",
+    "infrastructure": "Cothon"
+  },
+  {
+    "name": "Polish",
+    "leaders": [
+      "Jadwiga"
+    ],
+    "ability": {
+      "name": "Golden Liberty",
+      "text": "Building an Encampment or Fort triggers a Culture Bomb, claiming surrounding tiles. One  Military policy slot in all governments is converted into a  Wildcard policy slot."
+    },
+    "unit": "Winged Hussar",
+    "infrastructure": "Sukiennice"
+  },
+  {
+    "name": "Portuguese",
+    "leaders": [
+      "Jo\u00e3o III"
+    ],
+    "ability": {
+      "name": "Casa da \u00cdndia",
+      "text": "International  Trade Routes can only be sent to cities on the coast or with a Harbor, but gain a +50% increase to all yields. Traders have +50% range over water, and can embark as soon as they are unlocked."
+    },
+    "unit": "Nau",
+    "infrastructure": "Navigation School"
+  },
+  {
+    "name": "Roman",
+    "leaders": [
+      "Trajan",
+      "Julius Caesar"
+    ],
+    "ability": {
+      "name": "All Roads Lead to Rome",
+      "text": "Founded or conquered cities start with a Trading Post and, if within  Trade Route range of the  Capital, a road to it.  Trade Routes generate +1 additional  Gold from Roman Trading Posts they pass through."
+    },
+    "unit": "Legion",
+    "infrastructure": "Bath"
+  },
+  {
+    "name": "Russian",
+    "leaders": [
+      "Peter"
+    ],
+    "ability": {
+      "name": "Mother Russia",
+      "text": "Founded cities start with five additional tiles. Tundra tiles provide +1  Faith and +1  Production, in addition to their usual yields."
+    },
+    "unit": "Cossack",
+    "infrastructure": "Lavra"
+  },
+  {
+    "name": "Scottish",
+    "leaders": [
+      "Robert the Bruce"
+    ],
+    "ability": {
+      "name": "Scottish Enlightenment",
+      "text": "Happy cities gain +5%  Science and +5%  Production, and generate +1  Great Scientist point in their Campuses and +1  Great Engineer point in their Industrial Zones. Ecstatic cities double these bonuses."
+    },
+    "unit": "Highlander",
+    "infrastructure": "Golf Course"
+  },
+  {
+    "name": "Scythian",
+    "leaders": [
+      "Tomyris"
+    ],
+    "ability": {
+      "name": "People of the Steppe",
+      "text": "Building a light cavalry unit or Saka Horse Archer grants a free second copy of that unit."
+    },
+    "unit": "Saka Horse Archer",
+    "infrastructure": "Kurgan"
+  },
+  {
+    "name": "Spanish",
+    "leaders": [
+      "Philip II"
+    ],
+    "ability": {
+      "name": "Treasure Fleet",
+      "text": "May form Fleets and Armadas with Mercantilism, instead of Nationalism and Mobilization.  Trade Routes receive 3  Gold, 2  Faith and 1  Production. Trade Routes between cities on different continents gain triple these yields. Cities not on your original  Capital's continent receive 25% extra  Production towards  Districts and a Builder when founded."
+    },
+    "unit": "Conquistador",
+    "infrastructure": "Mission"
+  },
+  {
+    "name": "Sumerian",
+    "leaders": [
+      "Gilgamesh"
+    ],
+    "ability": {
+      "name": "Epic Quest",
+      "text": "Capturing a Barbarian Outpost also grants a Tribal Village reward. Levying city-state units costs 50% less  Gold."
+    },
+    "unit": "War-Cart",
+    "infrastructure": "Ziggurat"
+  },
+  {
+    "name": "Swedish",
+    "leaders": [
+      "Kristina"
+    ],
+    "ability": {
+      "name": "Nobel Prize",
+      "text": "Gains 50  Diplomatic Favor whenever a Great Person is earned. +1  Great Engineer points from Factories and +1  Great Scientist points from Universities. Sweden's presence in the game adds three unique World Congress competitions in the Industrial Era."
+    },
+    "unit": "Carolean",
+    "infrastructure": "Open-Air Museum"
+  },
+  {
+    "name": "Vietnamese",
+    "leaders": [
+      "B\u00e0 Tri\u1ec7u"
+    ],
+    "ability": {
+      "name": "Nine Dragon River Delta",
+      "text": "Land specialty  Districts can only be built on Woods, Rainforest or Marsh tiles. Buildings on these features receive additional yields: +1  Culture in Woods, +1  Science in Rainforest, and +1  Production in Marsh. Can plant Woods with Medieval Faires, instead of Conservation."
+    },
+    "unit": "Voi Chi\u1ebfn",
+    "infrastructure": "Th\u00e0nh"
+  }
+]
