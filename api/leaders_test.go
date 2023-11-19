@@ -82,6 +82,13 @@ func TestGetLeaders(t *testing.T) {
 
 		assert.Equal(t, []database.Leader{db.Leaders[0]}, recieved_leader)
 	}
+
+	req = httptest.NewRequest(http.MethodGet, "/api/v1/leaders?limit=-1", nil)
+
+	rec = httptest.NewRecorder()
+	c = e.NewContext(req, rec)
+
+	assert.Error(t, router.GetLeaders(c))
 }
 
 func TestGetLeader(t *testing.T) {
@@ -109,7 +116,6 @@ func TestGetLeader(t *testing.T) {
 		assert.Equal(t, db.Leaders[1], recieved_leader)
 	}
 
-	e = echo.New()
 	req = httptest.NewRequest(http.MethodGet, "/api/v1/leaders/", nil)
 
 	rec = httptest.NewRecorder()

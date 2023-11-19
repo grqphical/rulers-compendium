@@ -60,8 +60,8 @@ func main() {
 
 	// Civilizations API
 	civ_api := version_1.Group("/civilizations")
-	civ_api.GET("", router.GetCivlizations)
-	civ_api.GET("/:name", router.GetCivilzation)
+	civ_api.GET("", router.GetCivilizations)
+	civ_api.GET("/:name", router.GetCivilization)
 
 	// Districts API
 	districts_api := version_1.Group("/districts")
