@@ -1,4 +1,5 @@
 # Rulers Compendium
+[![Build, Tetsting & Docs](https://github.com/grqphical07/rulers-compendium/actions/workflows/go.yml/badge.svg)](https://github.com/grqphical07/rulers-compendium/actions/workflows/go.yml)
 
 A free to use database API for information about Sid Meier's civilization VI. I gathered data by scraping the civ6 wiki so some of it may be inaccurate. If it is feel free to submit an issue detailing the error.
 
