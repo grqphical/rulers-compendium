@@ -9,7 +9,7 @@ import (
 
 // GetCivilizations godoc
 // @Description Get's all civilizations available to play in civ 6
-// @Tags leaders
+// @Tags Civilizations
 // @Accept */*
 // @Produce json
 // @Param limit query int false "limits amount of results returned"
@@ -34,7 +34,7 @@ func (r *Router) GetCivilizations(c echo.Context) error {
 
 // GetCivilization godoc
 // @Description Gets a civilization in civ 6 based on a given name
-// @Tags leaders
+// @Tags Civilizations
 // @Accept */*
 // @Produce json
 // @Param name path string true "civilization to get"

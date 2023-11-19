@@ -10,6 +10,7 @@ type Database struct {
 	Leaders       []Leader
 	Civilizations []Civilization
 	Districts     []District
+	Improvements  []Improvement
 }
 
 type Agenda struct {
@@ -46,6 +47,15 @@ type District struct {
 	ExclusiveTo   string   `json:"exclusive_to"`
 }
 
+type Improvement struct {
+	Name        string
+	Technology  string
+	Placement   []string
+	Resources   []string
+	Description string
+	Plunder     string
+}
+
 func ReadDatabase() Database {
 	db := Database{}
 
@@ -72,6 +82,14 @@ func ReadDatabase() Database {
 
 	db.Districts = make([]District, 0)
 	json.Unmarshal(data, &db.Districts)
+
+	data, err = os.ReadFile("data/improvements.json")
+	if err != nil {
+		log.Fatal("Failed to read improvements file")
+	}
+
+	db.Improvements = make([]Improvement, 0)
+	json.Unmarshal(data, &db.Improvements)
 
 	return db
 }

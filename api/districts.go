@@ -9,7 +9,7 @@ import (
 
 // GetDistricts godoc
 // @Description Get's all districts from civ 6
-// @Tags districts
+// @Tags Districts
 // @Accept */*
 // @Produce json
 // @Param limit query int false "limits amount of results returned"
@@ -36,7 +36,7 @@ func (r *Router) GetDistricts(c echo.Context) error {
 
 // GetDistrict godoc
 // @Description Gets a district by name in civ 6
-// @Tags districts
+// @Tags Districts
 // @Accept */*
 // @Produce json
 // @Param name path string true "district to find"

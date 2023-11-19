@@ -33,7 +33,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "leaders"
+                    "Civilizations"
                 ],
                 "parameters": [
                     {
@@ -72,7 +72,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "leaders"
+                    "Civilizations"
                 ],
                 "parameters": [
                     {
@@ -103,7 +103,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "districts"
+                    "Districts"
                 ],
                 "parameters": [
                     {
@@ -148,7 +148,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "districts"
+                    "Districts"
                 ],
                 "parameters": [
                     {
@@ -169,6 +169,76 @@ const docTemplate = `{
                 }
             }
         },
+        "/api/v1/improvements": {
+            "get": {
+                "description": "Get's all improvements buildable in civ 6",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Improvements"
+                ],
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "limits amount of results returned",
+                        "name": "limit",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/database.Improvement"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid limit value",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/improvements/{name}": {
+            "get": {
+                "description": "Gets an improvement in civ 6 based on a given name",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Improvements"
+                ],
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Improvement to get",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/database.Improvement"
+                        }
+                    }
+                }
+            }
+        },
         "/api/v1/leaders": {
             "get": {
                 "description": "Get's all leaders from civ 6 including their agenda's and abilities",
@@ -179,7 +249,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "leaders"
+                    "Leaders"
                 ],
                 "parameters": [
                     {
@@ -224,7 +294,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "leaders"
+                    "Leaders"
                 ],
                 "parameters": [
                     {
@@ -311,6 +381,35 @@ const docTemplate = `{
                     "type": "string"
                 },
                 "plunder_yields": {
+                    "type": "string"
+                }
+            }
+        },
+        "database.Improvement": {
+            "type": "object",
+            "properties": {
+                "description": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "placement": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "plunder": {
+                    "type": "string"
+                },
+                "resources": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "technology": {
                     "type": "string"
                 }
             }

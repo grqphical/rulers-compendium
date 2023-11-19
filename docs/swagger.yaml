@@ -44,6 +44,25 @@ definitions:
       plunder_yields:
         type: string
     type: object
+  database.Improvement:
+    properties:
+      description:
+        type: string
+      name:
+        type: string
+      placement:
+        items:
+          type: string
+        type: array
+      plunder:
+        type: string
+      resources:
+        items:
+          type: string
+        type: array
+      technology:
+        type: string
+    type: object
   database.Leader:
     properties:
       ability:
@@ -94,7 +113,7 @@ paths:
           schema:
             type: string
       tags:
-      - leaders
+      - Civilizations
   /api/v1/civilizations/{name}:
     get:
       consumes:
@@ -114,7 +133,7 @@ paths:
           schema:
             $ref: '#/definitions/database.Civilization'
       tags:
-      - leaders
+      - Civilizations
   /api/v1/districts:
     get:
       consumes:
@@ -143,7 +162,7 @@ paths:
           schema:
             type: string
       tags:
-      - districts
+      - Districts
   /api/v1/districts/{name}:
     get:
       consumes:
@@ -163,7 +182,52 @@ paths:
           schema:
             $ref: '#/definitions/database.District'
       tags:
-      - districts
+      - Districts
+  /api/v1/improvements:
+    get:
+      consumes:
+      - '*/*'
+      description: Get's all improvements buildable in civ 6
+      parameters:
+      - description: limits amount of results returned
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/database.Improvement'
+            type: array
+        "400":
+          description: Invalid limit value
+          schema:
+            type: string
+      tags:
+      - Improvements
+  /api/v1/improvements/{name}:
+    get:
+      consumes:
+      - '*/*'
+      description: Gets an improvement in civ 6 based on a given name
+      parameters:
+      - description: Improvement to get
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/database.Improvement'
+      tags:
+      - Improvements
   /api/v1/leaders:
     get:
       consumes:
@@ -192,7 +256,7 @@ paths:
           schema:
             type: string
       tags:
-      - leaders
+      - Leaders
   /api/v1/leaders/{name}:
     get:
       consumes:
@@ -212,7 +276,7 @@ paths:
           schema:
             $ref: '#/definitions/database.Leader'
       tags:
-      - leaders
+      - Leaders
 schemes:
 - http
 swagger: "2.0"

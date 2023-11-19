@@ -1,0 +1,277 @@
+[
+  {
+    "name": "Farm",
+    "technology": "None",
+    "placement": [
+      "Grassland",
+      "Plains",
+      "Floodplains",
+      "Grassland (Hills, Requires Civil Engineering)",
+      "Plains (Hills, Requires Civil Engineering)"
+    ],
+    "resources": [
+      "Wheat",
+      "Rice",
+      "Maize"
+    ],
+    "description": "+1 Food +0.5 Housing. +1 Food with two adjacent Farms (Req. Feudalism) +1 Food for each adjacent Farm (Req. Replaceable Parts)",
+    "plunder": "Healing"
+  },
+  {
+    "name": "Mine",
+    "technology": "Mining",
+    "placement": [
+      "Hills"
+    ],
+    "resources": [
+      "Copper",
+      "Diamonds",
+      "Gold Ore",
+      "Iron",
+      "Jade",
+      "Mercury",
+      "Salt",
+      "Niter",
+      "Coal",
+      "Aluminum",
+      "Uranium",
+      "Amber"
+    ],
+    "description": "-1 Appeal +1 Production +1 Production (Req. Apprenticeship). +1  Production (Req. Industrialization). +1 Production (Req. Smart Materials)",
+    "plunder": " Gold"
+  },
+  {
+    "name": "Quarry",
+    "technology": "Mining",
+    "placement": [],
+    "resources": [
+      "Stone",
+      "Marble",
+      "Gypsum"
+    ],
+    "description": "-1 Appeal +1  Production +2  Gold (Req. Banking) (Vanilla and R&F only) +1  Production (Req. Rocketry) +1  Production (Req. Gunpowder) +1  Production (Req. Predictive Systems)",
+    "plunder": " Faith"
+  },
+  {
+    "name": "Plantation",
+    "technology": "Irrigation",
+    "placement": [],
+    "resources": [
+      "Bananas",
+      "Citrus",
+      "Cocoa",
+      "Coffee",
+      "Cotton",
+      "Dyes",
+      "Silk",
+      "Spices",
+      "Sugar",
+      "Tea",
+      "Tobacco",
+      "Wine",
+      "Olives"
+    ],
+    "description": "+2  Gold +0.5  Housing +1  Food (Req. Scientific Theory) +2  Gold (Req. Globalization)",
+    "plunder": " Faith"
+  },
+  {
+    "name": "Camp",
+    "technology": "Animal Husbandry",
+    "placement": [],
+    "resources": [
+      "Deer",
+      "Furs",
+      "Ivory",
+      "Truffles",
+      "Honey"
+    ],
+    "description": "+2  Gold +0.5  Housing +1  Food (Req. Mercantilism) +1  Production (Req. Mercantilism) +1  Gold (Req. Synthetic Materials)",
+    "plunder": " Faith"
+  },
+  {
+    "name": "Pasture",
+    "technology": "Animal Husbandry",
+    "placement": [],
+    "resources": [
+      "Sheep",
+      "Cattle",
+      "Horses"
+    ],
+    "description": "+1  Production +0.5  Housing +1 Food (Req. Stirrups) +1  Production (Req. Robotics)",
+    "plunder": " Faith"
+  },
+  {
+    "name": "Fishing Boats",
+    "technology": "Sailing",
+    "placement": [],
+    "resources": [
+      "Fish",
+      "Crabs",
+      "Whales",
+      "Pearls",
+      "Amber",
+      "Turtles"
+    ],
+    "description": "+1  Food +0.5 Housing +2 Gold (Req. Cartography) +1 Food (Req. Plastics)",
+    "plunder": "Healing"
+  },
+  {
+    "name": "Lumber Mill",
+    "technology": "Machinery",
+    "placement": [
+      "Woods",
+      "Rainforest",
+      "Civilization VI: Gathering Storm"
+    ],
+    "resources": [],
+    "description": "Vanilla and R&F +1 Production +1 Production if adjacent to a River +1 Production (Req. Steel) +2 Production +1 Production (Req. Steel) +1 Production (Req. Cybernetics)",
+    "plunder": " Gold"
+  },
+  {
+    "name": "Fort",
+    "technology": "Siege Tactics",
+    "placement": [],
+    "resources": [],
+    "description": "Occupying unit receives +4 Defense Strength and 2 turns of fortification. Built by a Military Engineer.",
+    "plunder": "None"
+  },
+  {
+    "name": "Airstrip",
+    "technology": "Flight",
+    "placement": [],
+    "resources": [],
+    "description": "-1 Appeal +3 Aircraft Capacity Built by a Military Engineer.",
+    "plunder": "None"
+  },
+  {
+    "name": "Seaside Resort",
+    "technology": "Radio",
+    "placement": [
+      "Coastal (Civ6)",
+      "Grassland (Civ6)",
+      "Plains (Civ6)",
+      "Desert (Civ6)"
+    ],
+    "resources": [
+      "Appeal (Civ6)"
+    ],
+    "description": "Provides the tile's Appeal in Tourism. Provides the tile's Appeal in Gold.",
+    "plunder": " Gold"
+  },
+  {
+    "name": "Geothermal Plant",
+    "technology": "Synthetic Materials",
+    "placement": [
+      "Geothermal Fissure"
+    ],
+    "resources": [],
+    "description": "+2 Production +1 Science +4 Power",
+    "plunder": " Gold"
+  },
+  {
+    "name": "Wind Farm",
+    "technology": "Composites",
+    "placement": [
+      "Hills"
+    ],
+    "resources": [],
+    "description": "+1  Production +1 Gold +2 Power",
+    "plunder": " Gold"
+  },
+  {
+    "name": "Solar Farm",
+    "technology": "Satellites",
+    "placement": [
+      "Grassland",
+      "Plains",
+      "Tundra",
+      "Desert"
+    ],
+    "resources": [],
+    "description": "+1 Production +1 Gold +2 Power",
+    "plunder": " Gold"
+  },
+  {
+    "name": "Offshore Wind Farm",
+    "technology": "Predictive Systems",
+    "placement": [
+      "Lake",
+      "Coast"
+    ],
+    "resources": [],
+    "description": "+1 Production +1 Gold +2 Power",
+    "plunder": " Gold"
+  },
+  {
+    "name": "Ski Resort",
+    "technology": "Professional Sports",
+    "placement": [
+      "Mountains"
+    ],
+    "resources": [],
+    "description": "+1 Amenity Provides Tourism equal to the tile's Appeal. Cannot be built next to another Ski Resort.",
+    "plunder": "None"
+  },
+  {
+    "name": "Oil Well",
+    "technology": "Steel",
+    "placement": [
+      "Land Tiles with Oil"
+    ],
+    "resources": [
+      "Oil"
+    ],
+    "description": "-1 Appeal +2 Production",
+    "plunder": " Gold"
+  },
+  {
+    "name": "Offshore Oil Rig",
+    "technology": "Plastics",
+    "placement": [
+      "Sea Tiles with Oil"
+    ],
+    "resources": [
+      "Oil"
+    ],
+    "description": "-1 Appeal +2 Production",
+    "plunder": " Gold"
+  },
+  {
+    "name": "Missile Silo",
+    "technology": "Rocketry",
+    "placement": [],
+    "resources": [],
+    "description": "Acts as launch site for Nuclear and Thermonuclear Devices. Built by a Military Engineer.",
+    "plunder": "None"
+  },
+  {
+    "name": "Mountain Tunnel",
+    "technology": "Chemistry",
+    "placement": [
+      "Mountains"
+    ],
+    "resources": [],
+    "description": "Allows units to move into it and exit through another Mountain Tunnel at the cost of 2 Movement. Built by a Military Engineer. Cannot be pillaged or removed.",
+    "plunder": "Cannot be plundered"
+  },
+  {
+    "name": "Railroad",
+    "technology": "Steam Power",
+    "placement": [],
+    "resources": [],
+    "description": "0.25 Movement Built by a Military Engineer.",
+    "plunder": "None"
+  },
+  {
+    "name": "Seastead",
+    "technology": "Seasteads",
+    "placement": [
+      "Lake",
+      "Coast",
+      "Ocean"
+    ],
+    "resources": [],
+    "description": "+2 Food +1 Production from each adjacent Fishing Boat. Fishing Boats receive +1  Production from each adjacent Seastead. +1 Culture and Tourism for each adjacent Reef. +2 Housing",
+    "plunder": "Healing"
+  }
+]

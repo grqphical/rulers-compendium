@@ -77,7 +77,7 @@ Returns:
 - [ ] Units
 - [ ] Buildings
 - [ ] Wonders
-- [ ] Improvements
+- [x] Improvements
 - [ ] Great People
 - [ ] Governors
 - [ ] DLC Filters

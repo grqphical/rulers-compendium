@@ -68,5 +68,10 @@ func main() {
 	districts_api.GET("", router.GetDistricts)
 	districts_api.GET("/:name", router.GetDistrict)
 
+	// Improvements API
+	improvements_api := version_1.Group("/improvements")
+	improvements_api.GET("", router.GetImprovements)
+	improvements_api.GET("/:name", router.GetImprovement)
+
 	e.Logger.Fatal(e.Start("127.0.0.1:8000"))
 }

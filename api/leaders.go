@@ -29,7 +29,7 @@ func GetLeadersByCivilization(civilzation string, limit int, db *database.Databa
 
 // GetLeaders godoc
 // @Description Get's all leaders from civ 6 including their agenda's and abilities
-// @Tags leaders
+// @Tags Leaders
 // @Accept */*
 // @Produce json
 // @Param limit query int false "limits amount of results returned"
@@ -65,7 +65,7 @@ func (r *Router) GetLeaders(c echo.Context) error {
 
 // GetLeader godoc
 // @Description Gets a single leader from civ 6
-// @Tags leaders
+// @Tags Leaders
 // @Accept */*
 // @Produce json
 // @Param name path string true "leader to get"
