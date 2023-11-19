@@ -41,5 +41,5 @@ jobs:
 
     - name: Get Echo-Swagger
       run: go get -v github.com/swaggo/echo-swagger
-    -name: Generate Docs
+    - name: Generate Docs
       run: swag init -g main.go --output docs --parseInternal
