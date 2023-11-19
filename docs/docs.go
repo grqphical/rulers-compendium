@@ -10,7 +10,6 @@ const docTemplate = `{
     "info": {
         "description": "{{escape .Description}}",
         "title": "{{.Title}}",
-        "termsOfService": "https://github.com/grqphical07/rulers-compendium/blob/main/TERMS.md",
         "contact": {
             "name": "grqphical",
             "url": "https://github.com/grqphical07"
@@ -24,23 +23,71 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/api/v1/": {
+        "/api/v1/civilizations": {
             "get": {
-                "description": "Get the status of the API Server",
+                "description": "Get's all civilizations available to play in civ 6",
                 "consumes": [
                     "*/*"
                 ],
                 "produces": [
-                    "text/plain"
+                    "application/json"
                 ],
                 "tags": [
-                    "root"
+                    "leaders"
+                ],
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "limits amount of results returned",
+                        "name": "limit",
+                        "in": "query"
+                    }
                 ],
                 "responses": {
                     "200": {
                         "description": "OK",
                         "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/database.Civilization"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid limit value",
+                        "schema": {
                             "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/civilizations/{name}": {
+            "get": {
+                "description": "Gets a civilization in civ 6 based on a given name",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "leaders"
+                ],
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "civilization to get",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/database.Civilization"
                         }
                     }
                 }
@@ -86,6 +133,37 @@ const docTemplate = `{
                         "description": "Invalid limit value",
                         "schema": {
                             "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/districts/{name}": {
+            "get": {
+                "description": "Gets a district by name in civ 6",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "districts"
+                ],
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "district to find",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/database.District"
                         }
                     }
                 }
@@ -191,6 +269,29 @@ const docTemplate = `{
                 }
             }
         },
+        "database.Civilization": {
+            "type": "object",
+            "properties": {
+                "ability": {
+                    "$ref": "#/definitions/database.Ability"
+                },
+                "infrastructure": {
+                    "type": "string"
+                },
+                "leaders": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "name": {
+                    "type": "string"
+                },
+                "unit": {
+                    "type": "string"
+                }
+            }
+        },
         "database.District": {
             "type": "object",
             "properties": {
@@ -201,6 +302,9 @@ const docTemplate = `{
                     }
                 },
                 "description": {
+                    "type": "string"
+                },
+                "exclusive_to": {
                     "type": "string"
                 },
                 "name": {
@@ -224,6 +328,9 @@ const docTemplate = `{
                     "type": "string"
                 },
                 "name": {
+                    "type": "string"
+                },
+                "unit": {
                     "type": "string"
                 }
             }

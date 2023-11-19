@@ -30,6 +30,32 @@
     "plunder_yields": " Science\n"
   },
   {
+    "name": "Observatory",
+    "buildings": [
+      "Library",
+      "University",
+      "Madrasa",
+      "Navigation School",
+      "Research Lab"
+    ],
+    "description": "Science-oriented District. Adds points towards  Great Scientist.\n+1  Science from each adjacent Mountain.\n+1  Science from every 2 adjacent Rainforest and district tiles.\n+2  Science from each adjacent Great Barrier Reef tile.\n +2  Science from each adjacent Reef tile.\n +2  Science from each adjacent Geothermal Fissure tile.\n +2  Science from each adjacent Pamukkale tile.\n",
+    "plunder_yields": " Science\n",
+    "exclusive_to" : "Maya"
+  },
+  {
+    "name": "Seowon",
+    "buildings": [
+      "Library",
+      "University",
+      "Madrasa",
+      "Navigation School",
+      "Research Lab"
+    ],
+    "description": "Science-oriented District. Adds points towards  Great Scientist.\n+1  Science from each adjacent Mountain.\n+1  Science from every 2 adjacent Rainforest and district tiles.\n+2  Science from each adjacent Great Barrier Reef tile.\n +2  Science from each adjacent Reef tile.\n +2  Science from each adjacent Geothermal Fissure tile.\n +2  Science from each adjacent Pamukkale tile.\n",
+    "plunder_yields": " Science\n",
+    "exclusive_to" : "Korea"
+  },
+  {
     "name": "Theater Square",
     "buildings": [
       "Amphitheater",
@@ -42,6 +68,19 @@
     "plunder_yields": " Culture\n"
   },
   {
+    "name": "Acropolis",
+    "buildings": [
+      "Amphitheater",
+      "Art Museum",
+      "Archaeological Museum",
+      "Broadcast Center",
+      "Film Studio"
+    ],
+    "description": "Culture-oriented District. Adds points towards  Great Writer,  Great Artist and  Great Musician.\n+2  Culture from each adjacent wonder.\n+1  Culture from every 2 adjacent district tiles.\n +2  Culture from each adjacent Entertainment Complex and Water Park tile.\n +2  Culture from each adjacent Pamukkale tile.\nBuildings contain Great Work slots. \n",
+    "plunder_yields": " Culture\n",
+    "exclusive_to" : "Greece"
+  },
+  {
     "name": "Holy Site",
     "buildings": [
       "Shrine",
@@ -51,6 +90,18 @@
     ],
     "description": "Faith-oriented District. Adds points towards  Great Prophet.\n+2  Faith from each adjacent natural wonder.\n+1  Faith from each adjacent Mountains tile\n +1  Faith for each adjacent Pamukkale tile.\n+1  Faith from every 2 adjacent Woods and district tiles.\nAllows Purchasing with  Faith of Religious Units.\n",
     "plunder_yields": " Faith\n"
+  },
+  {
+    "name": "Lavra",
+    "buildings": [
+      "Shrine",
+      "Temple",
+      "Stave Church",
+      "Worship Buildings"
+    ],
+    "description": "Faith-oriented District. Adds points towards  Great Prophet.\n+2  Faith from each adjacent natural wonder.\n+1  Faith from each adjacent Mountains tile\n +1  Faith for each adjacent Pamukkale tile.\n+1  Faith from every 2 adjacent Woods and district tiles.\nAllows Purchasing with  Faith of Religious Units.\n",
+    "plunder_yields": " Faith\n",
+    "exclusive_to" : "Russia"
   },
   {
     "name": "Encampment",
@@ -65,6 +116,32 @@
     "plunder_yields": "Cannot be plundered.\n"
   },
   {
+    "name": "Ikanda",
+    "buildings": [
+      "Barracks",
+      "Stable",
+      "Ordu",
+      "Armory",
+      "Military Academy"
+    ],
+    "description": "Military District. Adds points towards  Great General.\nHas a defense value and can fight as the City Center.\nProduced military units appear here.\nCannot be built next to the City Center.\n",
+    "plunder_yields": "Cannot be plundered.\n",
+    "exclusive_to" : "Zulu"
+  },
+  {
+    "name": "Thành",
+    "buildings": [
+      "Barracks",
+      "Stable",
+      "Ordu",
+      "Armory",
+      "Military Academy"
+    ],
+    "description": "Military District. Adds points towards  Great General.\nHas a defense value and can fight as the City Center.\nProduced military units appear here.\nCannot be built next to the City Center.\n",
+    "plunder_yields": "Cannot be plundered.\n",
+    "exclusive_to" : "Vietnam"
+  },
+  {
     "name": "Commercial Hub",
     "buildings": [
       "Market",
@@ -75,6 +152,17 @@
     "plunder_yields": " Gold\n"
   },
   {
+    "name": "Suguba",
+    "buildings": [
+      "Market",
+      "Bank",
+      "Stock Exchange"
+    ],
+    "description": "Commerce-oriented District. Adds points towards  Great Merchant.\n+2  Gold from each adjacent Harbor.\n+2  Gold from each adjacent river.\n+1  Gold from every 2 adjacent district tiles.\n +2  Gold from each adjacent Pamukkale tile.\n+1  Trade Route capacity if the city does not have a Harbor. (Vanilla only)\n",
+    "plunder_yields": " Gold\n",
+    "exclusive_to" : "Mali"
+  },
+  {
     "name": "Harbor",
     "buildings": [
       "Lighthouse",
@@ -83,6 +171,28 @@
     ],
     "description": "Seafaring District. Adds points towards  Great Admiral.\n+1  Gold from each adjacent coastal resource.\n+1  Gold from every 2 adjacent district tiles.\n+2  Gold from adjacent City Center.\n+1  Trade Route capacity if the city does not have a Commercial Hub. (Vanilla only)\nMust be built on Coast or Lakes Terrain adjacent to land.\nProduced ships will appear here. Landlocked cities with this District may produce ships. \nRemoves the  Movement penalty for embarking and disembarking to and from this tile.\n",
     "plunder_yields": " Gold\n"
+  },
+  {
+    "name": "Cothon",
+    "buildings": [
+      "Lighthouse",
+      "Shipyard",
+      "Seaport"
+    ],
+    "description": "Seafaring District. Adds points towards  Great Admiral.\n+1  Gold from each adjacent coastal resource.\n+1  Gold from every 2 adjacent district tiles.\n+2  Gold from adjacent City Center.\n+1  Trade Route capacity if the city does not have a Commercial Hub. (Vanilla only)\nMust be built on Coast or Lakes Terrain adjacent to land.\nProduced ships will appear here. Landlocked cities with this District may produce ships. \nRemoves the  Movement penalty for embarking and disembarking to and from this tile.\n",
+    "plunder_yields": " Gold\n",
+    "exclusive_to" : "Phoenecia"
+  },
+  {
+    "name": "Royal Navy Dockyard",
+    "buildings": [
+      "Lighthouse",
+      "Shipyard",
+      "Seaport"
+    ],
+    "description": "Seafaring District. Adds points towards  Great Admiral.\n+1  Gold from each adjacent coastal resource.\n+1  Gold from every 2 adjacent district tiles.\n+2  Gold from adjacent City Center.\n+1  Trade Route capacity if the city does not have a Commercial Hub. (Vanilla only)\nMust be built on Coast or Lakes Terrain adjacent to land.\nProduced ships will appear here. Landlocked cities with this District may produce ships. \nRemoves the  Movement penalty for embarking and disembarking to and from this tile.\n",
+    "plunder_yields": " Gold\n",
+    "exclusive_to" : "England"
   },
   {
     "name": "Industrial Zone",
@@ -97,6 +207,36 @@
     ],
     "description": "Production-oriented District. Adds points towards  Great Engineer.\n+1  Production from each adjacent Quarry.\n+1  Production from each adjacent Mine (see below for ).\n+1  Production from every 2 adjacent district tiles.\n +1  Production from each adjacent strategic resource.\n +1  Production from every 2 adjacent Mine or Lumber Mill.\n +2  Production from every Aqueduct (or Bath), Canal or Dam.\nSome District buildings' bonuses extend to each city within 6 tiles.\n",
     "plunder_yields": " Science (Oppidum cannot be plundered)\n"
+  },
+  {
+    "name": "Hansa",
+    "buildings": [
+      "Workshop",
+      "Factory",
+      "Electronics Factory",
+      "Power Plant",
+      "Coal Power Plant",
+      "Oil Power Plant",
+      "Nuclear Power Plant"
+    ],
+    "description": "Production-oriented District. Adds points towards  Great Engineer.\n+1  Production from each adjacent Quarry.\n+1  Production from each adjacent Mine (see below for ).\n+1  Production from every 2 adjacent district tiles.\n +1  Production from each adjacent strategic resource.\n +1  Production from every 2 adjacent Mine or Lumber Mill.\n +2  Production from every Aqueduct (or Bath), Canal or Dam.\nSome District buildings' bonuses extend to each city within 6 tiles.\n",
+    "plunder_yields": " Science (Oppidum cannot be plundered)\n",
+    "exclusive_to" : "Germany"
+  },
+  {
+    "name": "Oppidum",
+    "buildings": [
+      "Workshop",
+      "Factory",
+      "Electronics Factory",
+      "Power Plant",
+      "Coal Power Plant",
+      "Oil Power Plant",
+      "Nuclear Power Plant"
+    ],
+    "description": "Production-oriented District. Adds points towards  Great Engineer.\n+1  Production from each adjacent Quarry.\n+1  Production from each adjacent Mine (see below for ).\n+1  Production from every 2 adjacent district tiles.\n +1  Production from each adjacent strategic resource.\n +1  Production from every 2 adjacent Mine or Lumber Mill.\n +2  Production from every Aqueduct (or Bath), Canal or Dam.\nSome District buildings' bonuses extend to each city within 6 tiles.\n",
+    "plunder_yields": " Science (Oppidum cannot be plundered)\n",
+    "exclusive_to" : "Gaul"
   },
   {
     "name": "Preserve",
@@ -117,6 +257,28 @@
     "plunder_yields": "Healing\n"
   },
   {
+    "name": "Street Carnival",
+    "buildings": [
+      "Arena",
+      "Zoo",
+      "Stadium"
+    ],
+    "description": "Amenity-boosting district. Mutually exclusive with Water Park.\n+1  Amenity\nSome District buildings' bonuses extend to each city within 6 tiles.\n",
+    "plunder_yields": "Healing\n",
+    "exclusive_to": "Brazil"
+  },
+  {
+    "name": "Hippodrom",
+    "buildings": [
+      "Arena",
+      "Zoo",
+      "Stadium"
+    ],
+    "description": "Amenity-boosting district. Mutually exclusive with Water Park.\n+1  Amenity\nSome District buildings' bonuses extend to each city within 6 tiles.\n",
+    "plunder_yields": "Healing\n",
+    "exclusive_to": "Byzantium"
+  },
+  {
     "name": "Water Park",
     "buildings": [
       "Ferris Wheel",
@@ -125,6 +287,17 @@
     ],
     "description": "Amenity-boosting district. Mutually exclusive with Entertainment Complex.\n+1  Amenity\nSome District buildings' bonuses extend to each city within 9 tiles. \n",
     "plunder_yields": "Healing\n"
+  },
+  {
+    "name": "Copacabana",
+    "buildings": [
+      "Ferris Wheel",
+      "Aquarium",
+      "Aquatics Center"
+    ],
+    "description": "Amenity-boosting district. Mutually exclusive with Entertainment Complex.\n+1  Amenity\nSome District buildings' bonuses extend to each city within 9 tiles. \n",
+    "plunder_yields": "Healing\n",
+    "exclusive_to": "Brazil"
   },
   {
     "name": "Aqueduct",
@@ -137,6 +310,17 @@
     "plunder_yields": " Gold\n"
   },
   {
+    "name": "Bath",
+    "buildings": [
+      "Ferris Wheel",
+      "Aquarium",
+      "Aquatics Center"
+    ],
+    "description": " Housing from water is increased by 2 or set to 6, whichever is higher.\nMust be built adjacent to both the City Center and one of the following: River, Lake, Oasis, or Mountain.\nIgnores the normal population requirements for district construction.\n",
+    "plunder_yields": " Gold\n",
+    "exclusive_to": "Rome"
+  },
+  {
     "name": "Neighborhood",
     "buildings": [
       "Food Market",
@@ -144,6 +328,16 @@
     ],
     "description": "Gives  Housing based on tile's Appeal:\nIgnores the normal population requirements for district construction. Any number of Neighborhood or Mbanza districts may be built in a city.\n",
     "plunder_yields": " Gold\n"
+  },
+  {
+    "name": "Mbanza",
+    "buildings": [
+      "Food Market",
+      "Shopping Mall"
+    ],
+    "description": "Gives  Housing based on tile's Appeal:\nIgnores the normal population requirements for district construction. Any number of Neighborhood or Mbanza districts may be built in a city.\n",
+    "plunder_yields": " Gold\n",
+    "exclusive_to": "Kongo"
   },
   {
     "name": "Canal",

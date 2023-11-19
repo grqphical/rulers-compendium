@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"net/http"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
@@ -15,7 +16,6 @@ import (
 // @title Rulers Compendium API
 // @version 1.0
 // @description A free-to-use API to access information about Sid Meier's Civilization VI
-// @termsOfService https://github.com/grqphical07/rulers-compendium/blob/main/TERMS.md
 
 // @contact.name grqphical
 // @contact.url https://github.com/grqphical07
@@ -42,16 +42,18 @@ func main() {
 	e.Pre(middleware.RemoveTrailingSlash())
 	e.Pre(middleware.CORS())
 
+	e.GET("/", func(c echo.Context) error {
+		return c.Redirect(http.StatusPermanentRedirect, "/api/v1/docs/index.html")
+	})
+
 	api_routes := e.Group("/api")
 
 	version_1 := api_routes.Group("/v1")
+	version_1.GET("/docs/*", echoSwagger.WrapHandler)
 
 	router := api.NewRouter(&db, e)
 
 	// Leaders API
-	version_1.GET("/", router.Index)
-	version_1.GET("/docs/*", echoSwagger.WrapHandler)
-
 	leaders_api := version_1.Group("/leaders")
 	leaders_api.GET("", router.GetLeaders)
 	leaders_api.GET("/:name", router.GetLeader)

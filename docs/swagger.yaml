@@ -14,6 +14,21 @@ definitions:
       text:
         type: string
     type: object
+  database.Civilization:
+    properties:
+      ability:
+        $ref: '#/definitions/database.Ability'
+      infrastructure:
+        type: string
+      leaders:
+        items:
+          type: string
+        type: array
+      name:
+        type: string
+      unit:
+        type: string
+    type: object
   database.District:
     properties:
       buildings:
@@ -21,6 +36,8 @@ definitions:
           type: string
         type: array
       description:
+        type: string
+      exclusive_to:
         type: string
       name:
         type: string
@@ -37,6 +54,8 @@ definitions:
         type: string
       name:
         type: string
+      unit:
+        type: string
     type: object
 host: localhost:8000
 info:
@@ -48,24 +67,54 @@ info:
   license:
     name: MIT License
     url: https://github.com/grqphical07/rulers-compendium/blob/main/LICENSE
-  termsOfService: https://github.com/grqphical07/rulers-compendium/blob/main/TERMS.md
   title: Rulers Compendium API
   version: "1.0"
 paths:
-  /api/v1/:
+  /api/v1/civilizations:
     get:
       consumes:
       - '*/*'
-      description: Get the status of the API Server
+      description: Get's all civilizations available to play in civ 6
+      parameters:
+      - description: limits amount of results returned
+        in: query
+        name: limit
+        type: integer
       produces:
-      - text/plain
+      - application/json
       responses:
         "200":
           description: OK
           schema:
+            items:
+              $ref: '#/definitions/database.Civilization'
+            type: array
+        "400":
+          description: Invalid limit value
+          schema:
             type: string
       tags:
-      - root
+      - leaders
+  /api/v1/civilizations/{name}:
+    get:
+      consumes:
+      - '*/*'
+      description: Gets a civilization in civ 6 based on a given name
+      parameters:
+      - description: civilization to get
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/database.Civilization'
+      tags:
+      - leaders
   /api/v1/districts:
     get:
       consumes:
@@ -93,6 +142,26 @@ paths:
           description: Invalid limit value
           schema:
             type: string
+      tags:
+      - districts
+  /api/v1/districts/{name}:
+    get:
+      consumes:
+      - '*/*'
+      description: Gets a district by name in civ 6
+      parameters:
+      - description: district to find
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/database.District'
       tags:
       - districts
   /api/v1/leaders:

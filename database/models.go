@@ -7,7 +7,7 @@ import (
 
 type Database struct {
 	Leaders       []Leader
-	Civilizations []Civlization
+	Civilizations []Civilization
 	Districts     []District
 }
 
@@ -26,9 +26,10 @@ type Leader struct {
 	Civilization  string  `json:"civ"`
 	LeaderAbility Ability `json:"ability"`
 	LeaderAgenda  Agenda  `json:"agenda"`
+	UniqueUnit    string  `json:"unit"`
 }
 
-type Civlization struct {
+type Civilization struct {
 	Name           string   `json:"name"`
 	Leaders        []string `json:"leaders"`
 	Ability        Ability  `json:"ability"`
@@ -41,6 +42,7 @@ type District struct {
 	Buildings     []string `json:"buildings"`
 	Description   string   `json:"description"`
 	PlunderYields string   `json:"plunder_yields"`
+	ExclusiveTo   string   `json:"exclusive_to"`
 }
 
 func ReadDatabase() Database {
@@ -59,7 +61,7 @@ func ReadDatabase() Database {
 		panic(err)
 	}
 
-	db.Civilizations = make([]Civlization, 0)
+	db.Civilizations = make([]Civilization, 0)
 	json.Unmarshal(data, &db.Civilizations)
 
 	data, err = os.ReadFile("data/districts.json")

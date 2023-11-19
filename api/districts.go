@@ -35,6 +35,14 @@ func (r *Router) GetDistricts(c echo.Context) error {
 	}
 }
 
+// GetDistrict godoc
+// @Description Gets a district by name in civ 6
+// @Tags districts
+// @Accept */*
+// @Produce json
+// @Param name path string true "district to find"
+// @Success 200 {object} database.District
+// @Router /api/v1/districts/{name} [get]
 func (r *Router) GetDistrict(c echo.Context) error {
 	name := c.Param("name")
 	name = strings.ReplaceAll(name, "%20", " ")

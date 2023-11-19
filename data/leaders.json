@@ -21,7 +21,8 @@
     "agenda": {
       "name": "Short Life of Glory",
       "text": "Likes civilizations at war with powers other than Macedon. Dislikes civilizations at peace.  Grievances against this leader decay at twice the usual rate."
-    }
+    },
+    "unit" : "Hetairoi"
   },
   {
     "name": "Amanitore",
@@ -69,7 +70,8 @@
     "agenda": {
       "name": "Divine Guardian",
       "text": "Focuses on spreading his Religion to other civilizations, and likes those who follow it. Dislikes those that do not follow his Religion."
-    }
+    },
+    "unit" : "Tagma"
   },
   {
     "name": "Catherine de Medici (Black Queen)",
@@ -285,7 +287,8 @@
     "agenda": {
       "name": "Last Viking King",
       "text": "Builds a strong navy, and likes civilizations that do the same. Dislikes civilizations that neglect their navies."
-    }
+    },
+    "unit" : "Viking Longship"
   },
   {
     "name": "Harald Hardrada (Varangian)",
@@ -477,7 +480,8 @@
     "agenda": {
       "name": "Raven Banner",
       "text": "Will often levy troops from city-states, and likes those who do the same. Dislikes civilizations that shun such mercenaries."
-    }
+    },
+    "unit" : "Black Army"
   },
   {
     "name": "Menelik II",
@@ -741,7 +745,8 @@
     "agenda": {
       "name": "Lawgiver",
       "text": "Tries to keep his cities happy and loyal, and likes those who do the same, especially if they have taken cities from other civilizations. Dislikes those who struggle with happiness and loyalty, or that own few conquered cities."
-    }
+    },
+    "unit" : "Jannisary"
   },
   {
     "name": "Suleiman (Muhteşem)",
@@ -789,7 +794,8 @@
     "agenda": {
       "name": "Big Stick Policy",
       "text": "Likes peaceful civilizations that have a city on his home continent. Dislikes civilizations starting wars on his continent."
-    }
+    },
+    "unit" : "Rough Rider"
   },
   {
     "name": "Teddy Roosevelt (Bull Moose)",
@@ -861,7 +867,8 @@
     "agenda": {
       "name": "Sun Never Sets",
       "text": "Likes civilizations who have a city on her home continent, and will try to expand to all continents. Dislikes civilizations on continents where she has no cities."
-    }
+    },
+    "unit" : "Redcoat"
   },
   {
     "name": "Victoria (Age of Steam)",

@@ -26,17 +26,6 @@ func getLeadersByCivilization(civilzation string, limit int, db *database.Databa
 	return civ_leaders
 }
 
-// Index godoc
-// @Description Get the status of the API Server
-// @Tags root
-// @Accept */*
-// @Produce plain
-// @Success 200 {object} string
-// @Router /api/v1/ [get]
-func (r *Router) Index(c echo.Context) error {
-	return c.String(http.StatusOK, "OK")
-}
-
 // GetLeaders godoc
 // @Description Get's all leaders from civ 6 including their agenda's and abilities
 // @Tags leaders
