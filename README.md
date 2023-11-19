@@ -1,4 +1,5 @@
 # Rulers Compendium
+![Coverage](https://img.shields.io/badge/Coverage-100.0%25-brightgreen)
 [![Build, Tests & Docs](https://github.com/grqphical07/rulers-compendium/actions/workflows/go.yml/badge.svg)](https://github.com/grqphical07/rulers-compendium/actions/workflows/go.yml)
 [![Code Coverage](https://github.com/grqphical07/rulers-compendium/actions/workflows/coverage.yml/badge.svg)](https://github.com/grqphical07/rulers-compendium/actions/workflows/coverage.yml)
 
