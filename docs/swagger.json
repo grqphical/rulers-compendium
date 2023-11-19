@@ -1,0 +1,228 @@
+{
+    "schemes": [
+        "http"
+    ],
+    "swagger": "2.0",
+    "info": {
+        "description": "A free-to-use API to access information about Sid Meier's Civilization VI",
+        "title": "Rulers Compendium API",
+        "termsOfService": "https://github.com/grqphical07/rulers-compendium/blob/main/TERMS.md",
+        "contact": {
+            "name": "grqphical",
+            "url": "https://github.com/grqphical07"
+        },
+        "license": {
+            "name": "MIT License",
+            "url": "https://github.com/grqphical07/rulers-compendium/blob/main/LICENSE"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:8000",
+    "basePath": "/api/v1",
+    "paths": {
+        "/api/v1/": {
+            "get": {
+                "description": "Get the status of the API Server",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "text/plain"
+                ],
+                "tags": [
+                    "root"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/districts": {
+            "get": {
+                "description": "Get's all districts from civ 6",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "districts"
+                ],
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "limits amount of results returned",
+                        "name": "limit",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "filters leaders by civilization",
+                        "name": "civilization",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/database.District"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid limit value",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/leaders": {
+            "get": {
+                "description": "Get's all leaders from civ 6 including their agenda's and abilities",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "leaders"
+                ],
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "limits amount of results returned",
+                        "name": "limit",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "filters leaders by civilization",
+                        "name": "civilization",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/database.Leader"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid limit value",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/leaders/{name}": {
+            "get": {
+                "description": "Gets a single leader from civ 6",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "leaders"
+                ],
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "leader to get",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/database.Leader"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "database.Ability": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                }
+            }
+        },
+        "database.Agenda": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                }
+            }
+        },
+        "database.District": {
+            "type": "object",
+            "properties": {
+                "buildings": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "description": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "plunder_yields": {
+                    "type": "string"
+                }
+            }
+        },
+        "database.Leader": {
+            "type": "object",
+            "properties": {
+                "ability": {
+                    "$ref": "#/definitions/database.Ability"
+                },
+                "agenda": {
+                    "$ref": "#/definitions/database.Agenda"
+                },
+                "civ": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

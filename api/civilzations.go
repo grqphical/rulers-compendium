@@ -17,7 +17,7 @@ func (r *Router) GetCivlizations(c echo.Context) error {
 		return c.JSON(http.StatusOK, civs)
 	} else {
 		limit, err := strconv.Atoi(limit)
-		if err != nil {
+		if err != nil || limit <= 0 {
 			return echo.NewHTTPError(http.StatusBadRequest, "Invalid limit parameter")
 		}
 

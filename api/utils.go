@@ -1,7 +1,7 @@
 package api
 
 import (
-	"example/civ6-api/database"
+	"github.com/grqphical07/rulers-compendium/database"
 
 	"github.com/labstack/echo/v4"
 )

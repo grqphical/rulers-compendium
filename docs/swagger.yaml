@@ -1,0 +1,149 @@
+basePath: /api/v1
+definitions:
+  database.Ability:
+    properties:
+      name:
+        type: string
+      text:
+        type: string
+    type: object
+  database.Agenda:
+    properties:
+      name:
+        type: string
+      text:
+        type: string
+    type: object
+  database.District:
+    properties:
+      buildings:
+        items:
+          type: string
+        type: array
+      description:
+        type: string
+      name:
+        type: string
+      plunder_yields:
+        type: string
+    type: object
+  database.Leader:
+    properties:
+      ability:
+        $ref: '#/definitions/database.Ability'
+      agenda:
+        $ref: '#/definitions/database.Agenda'
+      civ:
+        type: string
+      name:
+        type: string
+    type: object
+host: localhost:8000
+info:
+  contact:
+    name: grqphical
+    url: https://github.com/grqphical07
+  description: A free-to-use API to access information about Sid Meier's Civilization
+    VI
+  license:
+    name: MIT License
+    url: https://github.com/grqphical07/rulers-compendium/blob/main/LICENSE
+  termsOfService: https://github.com/grqphical07/rulers-compendium/blob/main/TERMS.md
+  title: Rulers Compendium API
+  version: "1.0"
+paths:
+  /api/v1/:
+    get:
+      consumes:
+      - '*/*'
+      description: Get the status of the API Server
+      produces:
+      - text/plain
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      tags:
+      - root
+  /api/v1/districts:
+    get:
+      consumes:
+      - '*/*'
+      description: Get's all districts from civ 6
+      parameters:
+      - description: limits amount of results returned
+        in: query
+        name: limit
+        type: integer
+      - description: filters leaders by civilization
+        in: query
+        name: civilization
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/database.District'
+            type: array
+        "400":
+          description: Invalid limit value
+          schema:
+            type: string
+      tags:
+      - districts
+  /api/v1/leaders:
+    get:
+      consumes:
+      - '*/*'
+      description: Get's all leaders from civ 6 including their agenda's and abilities
+      parameters:
+      - description: limits amount of results returned
+        in: query
+        name: limit
+        type: integer
+      - description: filters leaders by civilization
+        in: query
+        name: civilization
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/database.Leader'
+            type: array
+        "400":
+          description: Invalid limit value
+          schema:
+            type: string
+      tags:
+      - leaders
+  /api/v1/leaders/{name}:
+    get:
+      consumes:
+      - '*/*'
+      description: Gets a single leader from civ 6
+      parameters:
+      - description: leader to get
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/database.Leader'
+      tags:
+      - leaders
+schemes:
+- http
+swagger: "2.0"
