@@ -2,7 +2,6 @@ package api
 
 import (
 	"net/http"
-	"strconv"
 	"strings"
 
 	"github.com/labstack/echo/v4"
@@ -26,9 +25,9 @@ func (r *Router) GetDistricts(c echo.Context) error {
 	if limit == "" {
 		return c.JSON(http.StatusOK, districts)
 	} else {
-		limit, err := strconv.Atoi(limit)
-		if err != nil || limit <= 0 {
-			return echo.NewHTTPError(http.StatusBadRequest, "Invalid limit parameter")
+		limit, err := CheckLimit(limit)
+		if err != nil {
+			return err
 		}
 
 		return c.JSON(http.StatusOK, districts[:limit])

@@ -2,6 +2,7 @@ package database
 
 import (
 	"encoding/json"
+	"log"
 	"os"
 )
 
@@ -50,7 +51,7 @@ func ReadDatabase() Database {
 
 	data, err := os.ReadFile("data/leaders.json")
 	if err != nil {
-		panic(err)
+		log.Fatal("Failed to read leaders file")
 	}
 
 	db.Leaders = make([]Leader, 0)
@@ -58,7 +59,7 @@ func ReadDatabase() Database {
 
 	data, err = os.ReadFile("data/civs.json")
 	if err != nil {
-		panic(err)
+		log.Fatal("Failed to read civilizations file")
 	}
 
 	db.Civilizations = make([]Civilization, 0)
@@ -66,7 +67,7 @@ func ReadDatabase() Database {
 
 	data, err = os.ReadFile("data/districts.json")
 	if err != nil {
-		panic(err)
+		log.Fatal("Failed to read districts file")
 	}
 
 	db.Districts = make([]District, 0)

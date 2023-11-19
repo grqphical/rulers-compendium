@@ -2,7 +2,6 @@ package api
 
 import (
 	"net/http"
-	"strconv"
 	"strings"
 
 	"github.com/grqphical07/rulers-compendium/database"
@@ -10,7 +9,9 @@ import (
 	"github.com/labstack/echo/v4"
 )
 
-func getLeadersByCivilization(civilzation string, limit int, db *database.Database) []database.Leader {
+// Used to filter the leaders list by civilization. If limit is 0, no limit is applied
+// Returns the leader pertaining to the given civilization
+func GetLeadersByCivilization(civilzation string, limit int, db *database.Database) []database.Leader {
 	civ_leaders := make([]database.Leader, 0)
 
 	for _, leader := range db.Leaders {
@@ -42,18 +43,18 @@ func (r *Router) GetLeaders(c echo.Context) error {
 
 	if limit == "" {
 		if civilzation != "" {
-			return c.JSON(http.StatusOK, getLeadersByCivilization(civilzation, 0, r.db))
+			return c.JSON(http.StatusOK, GetLeadersByCivilization(civilzation, 0, r.db))
 		}
 		leaders := r.db.Leaders
 		return c.JSON(http.StatusOK, leaders)
 	} else {
-		limit, err := strconv.Atoi(limit)
-		if err != nil || limit <= 0 {
-			return echo.NewHTTPError(http.StatusBadRequest, "Invalid limit value. Must be number above zero")
+		limit, err := CheckLimit(limit)
+		if err != nil {
+			return err
 		}
 
 		if civilzation != "" {
-			return c.JSON(http.StatusOK, getLeadersByCivilization(civilzation, limit, r.db))
+			return c.JSON(http.StatusOK, GetLeadersByCivilization(civilzation, limit, r.db))
 		}
 
 		leaders := r.db.Leaders[:limit]
