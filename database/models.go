@@ -11,6 +11,7 @@ type Database struct {
 	Civilizations []Civilization
 	Districts     []District
 	Improvements  []Improvement
+	Wonders       []Wonder
 }
 
 type Agenda struct {
@@ -56,6 +57,15 @@ type Improvement struct {
 	Plunder     string
 }
 
+type Wonder struct {
+	Name        string `json:"name"`
+	Era         string `json:"era"`
+	Requirement string `json:"requirement"`
+	Cost        string `json:"production_cost"`
+	Description string `json:"description"`
+	Placement   string `json:"placement"`
+}
+
 func ReadDatabase() Database {
 	db := Database{}
 
@@ -90,6 +100,14 @@ func ReadDatabase() Database {
 
 	db.Improvements = make([]Improvement, 0)
 	json.Unmarshal(data, &db.Improvements)
+
+	data, err = os.ReadFile("data/wonders.json")
+	if err != nil {
+		log.Fatal("Failed to read wonders file")
+	}
+
+	db.Wonders = make([]Wonder, 0)
+	json.Unmarshal(data, &db.Wonders)
 
 	return db
 }

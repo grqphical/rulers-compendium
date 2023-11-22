@@ -1,0 +1,426 @@
+[
+  {
+    "name": "Alhambra",
+    "era": "Medieval",
+    "requirement": "Castles",
+    "production_cost": "710",
+    "description": "+2 Amenities. +1 Great General point per turn. +1 Military policy slot. Provides the same defensive bonuses as the Fort improvement.",
+    "placement": "Must be built on Hills adjacent to an Encampment district."
+  },
+  {
+    "name": "Amundsen-Scott Research Station",
+    "era": "Atomic",
+    "requirement": "Cold War",
+    "production_cost": "1620",
+    "description": "+5 Great Scientist points per turn. +20% Science and +10% Production in all cities. Yields are doubled if there are 5 Snow or Snow Hill tiles within 3 tiles of a city owned by this player.",
+    "placement": "Must be built on a Snow or a Snow Hills tile next to Campus with a Research Lab."
+  },
+  {
+    "name": "Angkor Wat",
+    "era": "Medieval",
+    "requirement": "Medieval Faires",
+    "production_cost": "710",
+    "description": "+2 Faith. +1 Population in all current cities when built. +1 Housing in all cities.",
+    "placement": "Must be built adjacent to an Aqueduct district."
+  },
+  {
+    "name": "Apadana",
+    "era": "Classical",
+    "requirement": "Political Philosophy",
+    "production_cost": "400",
+    "description": "+2 Great Work slots. +2 Envoys when you build a wonder, including Apadana, in this city.",
+    "placement": "Must be built adjacent to a Capital."
+  },
+  {
+    "name": "Big Ben",
+    "era": "Industrial",
+    "requirement": "Economics",
+    "production_cost": "1450",
+    "description": "+6 Gold. +3 Great Merchant points per turn. +1 Economic policy slot. Upon construction the treasury is increased by 100%  ( 50%).",
+    "placement": "Must be built next to a River adjacent to a Commercial Hub district with a Bank."
+  },
+  {
+    "name": "Biosph\u00e8re",
+    "era": "Atomic",
+    "requirement": "Synthetic Materials",
+    "production_cost": "1740",
+    "description": "+1 Appeal to tiles adjacent to Rainforest and Marsh in your empire. Vanilla and When completed receive 100 Science for every Marsh, Rainforest, and Woods in this city.  +200% Power for all Offshore Wind Farms, Solar Farms, Wind Farms, Geothermal Plants, and Hydroelectric Dams. This building and these improvements provide Tourism equal to their Power.",
+    "placement": "Must be built next to a River adjacent to a Neighborhood."
+  },
+  {
+    "name": "Bolshoi Theatre",
+    "era": "Industrial",
+    "requirement": "Opera and Ballet",
+    "production_cost": "1240",
+    "description": "+2 Great Writer points per turn. +2 Great Musician points per turn. +1 Great Work of Writing slot. +1 Great Work of Music slot. Awards 2 randomly-chosen free civics when completed.",
+    "placement": "Must be built on flat land adjacent to a Theater Square district."
+  },
+  {
+    "name": "Broadway",
+    "era": "Modern",
+    "requirement": "Mass Media",
+    "production_cost": "1620",
+    "description": "+3 Great Writer points per turn. +3 Great Musician points per turn. +1 Great Work of Writing slot. +2 Great Work of Music slot. +20% Culture in that city. Gain a free random Atomic Era civic boost",
+    "placement": "Must be built on flat land next to a Theater Square district."
+  },
+  {
+    "name": "Casa de Contrataci\u00f3n",
+    "era": "Renaissance",
+    "requirement": "Cartography",
+    "production_cost": "920",
+    "description": "+3 Great Merchant points per turn. Gain 3 Governor promotions. All your cities on your non-home continent with a Governor gain +15% Production, +15% Faith and +15% Gold.",
+    "placement": "Must be built adjacent to a Government Plaza."
+  },
+  {
+    "name": "Chichen Itza",
+    "era": "Medieval",
+    "requirement": "Guilds",
+    "production_cost": "710",
+    "description": "+2 Culture and +1 Production to all Rainforest tiles for this city",
+    "placement": "Must be built on Rainforest."
+  },
+  {
+    "name": "Colosseum",
+    "era": "Classical",
+    "requirement": "Games and Recreation",
+    "production_cost": "400",
+    "description": "+2 Culture and +3 Amenities to this city and all cities within 6 tiles.  +2 Culture, +2 Amenities and +2 Loyalty to each City Center within 6 tiles",
+    "placement": "Must be built on flat land adjacent to an Entertainment Complex district.  Must be built on flat land adjacent to an Entertainment Complex district with an Arena. "
+  },
+  {
+    "name": "Colossus",
+    "era": "Classical",
+    "requirement": "Shipbuilding",
+    "production_cost": "400",
+    "description": "+3 Gold. +1 Great Admiral point per turn. +1 Trade Route capacity. Grants a Trader unit.",
+    "placement": "Must be built on Coast and adjacent to a Harbor district."
+  },
+  {
+    "name": "Cristo Redentor",
+    "era": "Modern",
+    "requirement": "Mass Media",
+    "production_cost": "1620",
+    "description": "+4 Culture.  Tourism output from Relics and Holy Cities is not diminished by other civilizations who have researched The Enlightenment civic. Doubles Tourism output of Seaside Resorts across your civilization.",
+    "placement": "Must be built on Hills."
+  },
+  {
+    "name": "Eiffel Tower",
+    "era": "Modern",
+    "requirement": "Steel",
+    "production_cost": "1620",
+    "description": "All tiles in your civilization gain +2 Appeal",
+    "placement": "Must be built on flat land adjacent to City Center."
+  },
+  {
+    "name": "Est\u00e1dio do Maracan\u00e3",
+    "era": "Atomic",
+    "requirement": "Professional Sports",
+    "production_cost": "1740",
+    "description": "+6 Culture in each city of your civilization. +2 Amenities in each city of your civilization",
+    "placement": "Must be built on flat land adjacent to an Entertainment Complex with a Stadium."
+  },
+  {
+    "name": "Etemenanki",
+    "era": "Ancient",
+    "requirement": "Writing",
+    "production_cost": "220",
+    "description": "+2 Science and +1 Production to all Marsh tiles in your empire. +1 Science and +1 Production on all Floodplains tiles in this city. +2 Science",
+    "placement": "Must be built on Floodplains or Marsh."
+  },
+  {
+    "name": "Forbidden City",
+    "era": "Renaissance",
+    "requirement": "Printing",
+    "production_cost": "920",
+    "description": "+5 Culture. +1 Wildcard policy slot",
+    "placement": "Must be built on flat land adjacent to City Center."
+  },
+  {
+    "name": "Golden Gate Bridge",
+    "era": "Modern",
+    "requirement": "Combustion",
+    "production_cost": "1620",
+    "description": "+3 Amenities from entertainment. +4 Appeal to all tiles in this city. +100% Tourism from improvements and National Parks in this city. Acts as a Modern Road and creates Modern Roads in land tiles on either end if not present. Land units can cross without needing to disembark",
+    "placement": "Must be built on a Coast tile. The bridge must run straight across the hex between two land tiles directly opposite one another. At least one water tile must be present on both the left and right sides of the bridge."
+  },
+  {
+    "name": "Great Bath",
+    "era": "Ancient",
+    "requirement": "Pottery",
+    "production_cost": "180",
+    "description": "+3 Housing. +1 Amenity from entertainment. The Floodplains tiles along the river containing the wonder become immune to Flood damage at the cost of reducing Food and Production bonuses from flooding by 50%. Floodplains tiles belonging to this city gain +1 Faith for each time Flood damage is mitigated",
+    "placement": "Must be built on a Floodplains tile."
+  },
+  {
+    "name": "Great Library",
+    "era": "Classical",
+    "requirement": "Recorded History",
+    "production_cost": "400",
+    "description": "+2 Science. +1 Great Scientist point per turn. +2 Great Works of Writing slots. Receives boost to all Ancient and Classical era technologies.   +1 Great Writer point per turn.   Receive a random tech boost after another player recruits a Great Scientist.",
+    "placement": "Must be built on flat land adjacent to a Campus with a Library."
+  },
+  {
+    "name": "Great Lighthouse",
+    "era": "Classical",
+    "requirement": "Celestial Navigation",
+    "production_cost": "290",
+    "description": "+3 Gold. +1 Great Admiral point per turn. +1 Movement for all naval units.",
+    "placement": "Must be built on the Coast and adjacent to a Harbor district with a Lighthouse."
+  },
+  {
+    "name": "Great Zimbabwe",
+    "era": "Renaissance",
+    "requirement": "Banking",
+    "production_cost": "920",
+    "description": "+5 Gold. +2 Great Merchant points per turn. +1 Trade Route capacity. Your Trade Routes from this city get +2 Gold for every Bonus resource in this city's territory.",
+    "placement": "Must be built adjacent to Cattle and a Commercial Hub district with a Market."
+  },
+  {
+    "name": "Hagia Sophia",
+    "era": "Medieval",
+    "requirement": "Education",
+    "production_cost": "710",
+    "description": "+4 Faith. Missionaries and Apostles can spread religion 1 extra time.",
+    "placement": "Must be built on flat land adjacent to a Holy Site district, and player must have founded a religion."
+  },
+  {
+    "name": "Hanging Gardens",
+    "era": "Ancient",
+    "requirement": "Irrigation",
+    "production_cost": "180",
+    "description": "Increases Growth by 15% in all cities. +2 Housing.  In Heroes and Legends mode: All Hero units have 10% increasedlifespan",
+    "placement": "Must be built next to a River."
+  },
+  {
+    "name": "Hermitage",
+    "era": "Industrial",
+    "requirement": "Natural History",
+    "production_cost": "1450",
+    "description": "+3 Great Artist points per turn. +4 Great Works of Art slots",
+    "placement": "Must be built next to a River on a non-Desert and non-Tundra tile."
+  },
+  {
+    "name": "Huey Teocalli",
+    "era": "Medieval",
+    "requirement": "Military Tactics",
+    "production_cost": "710",
+    "description": "+1 Amenity from Entertainment for each adjacent lake tile. +1 Food and +1 Production for each Lake tile in your empire",
+    "placement": "Must be built on a Lake tile adjacent to land."
+  },
+  {
+    "name": "Jebel Barkal",
+    "era": "Classical",
+    "requirement": "Iron Working",
+    "production_cost": "400",
+    "description": "Awards 2 Iron.  Awards 6 Iron per turn. Provides +4 Faith to your cities that are within 6 tiles.",
+    "placement": "Must be built on a Desert Hills tile."
+  },
+  {
+    "name": "Kilwa Kisiwani",
+    "era": "Medieval",
+    "requirement": "Machinery",
+    "production_cost": "710",
+    "description": "+3 Envoys when built. When you are the Suzerain of a City-state this city gains a +15% boost to the yield provided by that City-state. If you are the Suzerain of 2 or more City-states of that type an additional 15% boost is given to all your cities.",
+    "placement": "Must be built on a flat tile adjacent to a Coast."
+  },
+  {
+    "name": "Kotoku-in",
+    "era": "Medieval",
+    "requirement": "Divine Right",
+    "production_cost": "710",
+    "description": "+20% Faith in this city. Grants 4 Warrior Monks.",
+    "placement": "Must be built adjacent to a Holy Site with a Temple."
+  },
+  {
+    "name": "Machu Picchu",
+    "era": "Classical",
+    "requirement": "Engineering",
+    "production_cost": "400",
+    "description": "+4 Gold. Mountain tiles provide a standard adjacency bonus to Commercial Hub, Theater Square and Industrial Zone districts in all cities.",
+    "placement": "Must be built on a Mountain tile that does not contain a Volcano."
+  },
+  {
+    "name": "Mahabodhi Temple",
+    "era": "Classical",
+    "requirement": "Theology",
+    "production_cost": "400",
+    "description": "+4 Faith. Grant 2 Apostles.  +2 Diplomatic Victory Points when built",
+    "placement": "Must be built on Woods adjacent to a Holy Site district with a Temple, and player must have founded a religion."
+  },
+  {
+    "name": "Mausoleum at Halicarnassus",
+    "era": "Classical",
+    "requirement": "Defensive Tactics",
+    "production_cost": "400",
+    "description": "+1 Science, +1 Faith, and +1 Culture on all Coast tiles in this city. All Great Engineers have an additional charge.",
+    "placement": "Must be built on a coastal tile adjacent to a Harbor district."
+  },
+  {
+    "name": "Meenakshi Temple",
+    "era": "Medieval",
+    "requirement": "Civil Service",
+    "production_cost": "710",
+    "description": "+3 Faith. Grants 2 Gurus. Gurus are 30% cheaper to purchase. Religious units adjacent to Gurus gain +5 Religious Strength in Theological Combat and +1 Movement.",
+    "placement": "Must be built adjacent to a Holy Site district, and player must have founded a religion."
+  },
+  {
+    "name": "Mont St. Michel",
+    "era": "Medieval",
+    "requirement": "Divine Right",
+    "production_cost": "710",
+    "description": "+2 Faith. +2 Relic slots. All Apostles you create gain the Martyr ability in addition to a second ability you choose normally.",
+    "placement": "Must be built on Floodplains or Marsh."
+  },
+  {
+    "name": "Oracle",
+    "era": "Ancient",
+    "requirement": "Mysticism",
+    "production_cost": "290",
+    "description": "+1 Culture. +1 Faith. Patronage of Great People costs 25% less Faith. Districts in this city provide +2 Great Person points of their type.  In Heroes and Legends mode: Recalling heroes costs 15% less Faith",
+    "placement": "Must be built on Hills."
+  },
+  {
+    "name": "Orsz\u00e1gh\u00e1z",
+    "era": "Industrial",
+    "requirement": "Sanitation",
+    "production_cost": "920",
+    "description": "+4 Culture. +100% Diplomatic Favor per turn from starting a turn as a Suzerain of a city-state.",
+    "placement": "Must be built on a River."
+  },
+  {
+    "name": "Oxford University",
+    "era": "Industrial",
+    "requirement": "Scientific Theory",
+    "production_cost": "1240",
+    "description": "+3 Great Scientist points per turn. +2 Great Works of Writing slots. +20% Science in city, and awards 2 randomly chosen free technologies when completed.",
+    "placement": "Must be built on flat[6] Grasslands or Plains adjacent to a Campus district with a University."
+  },
+  {
+    "name": "Panama Canal",
+    "era": "Industrial",
+    "requirement": "Steam Power",
+    "production_cost": "920",
+    "description": "Upon completion 1 or 2 adjacent Canal districts are automatically constructed. The Canal wonder tile can now be crossed by naval units. +10 Gold",
+    "placement": "Must be built on a flat land tile where there are two adjacent tiles directly across the build tile from one another the meets the following criteria: one adjacent tile must be able to legally hold a Canal district connecting into the Panama Canal construction tile; the other must be either a city, a water tile, or be another tile that can hold a connecting Canal."
+  },
+  {
+    "name": "Petra",
+    "era": "Classical",
+    "requirement": "Mathematics",
+    "production_cost": "400",
+    "description": "+2 Food, +2 Gold, and +1 Production on all Desert tiles for this city (non-Floodplains)",
+    "placement": "Must be built on Desert or Floodplains without Hills."
+  },
+  {
+    "name": "Potala Palace",
+    "era": "Renaissance",
+    "requirement": "Astronomy",
+    "production_cost": "1060",
+    "description": "+2 Culture. +3 Faith. +1 Diplomatic policy slot.  +1 Diplomatic Victory Point when built.",
+    "placement": "Must be built on a Hill adjacent to a Mountain."
+  },
+  {
+    "name": "Pyramids",
+    "era": "Ancient",
+    "requirement": "Masonry",
+    "production_cost": "220",
+    "description": "+2 Culture. Grants a free Builder. All Builders earns one extra build charge.",
+    "placement": "Must be built on Desert (including Floodplains) without Hills."
+  },
+  {
+    "name": "Ruhr Valley",
+    "era": "Industrial",
+    "requirement": "Industrialization",
+    "production_cost": "1240",
+    "description": "+20% Production in this city, and +1 Production for each Mine and Quarry in this city.",
+    "placement": "Must be built along a River adjacent to an Industrial Zone district with a Factory."
+  },
+  {
+    "name": "St. Basil's Cathedral",
+    "era": "Renaissance",
+    "requirement": "Reformed Church",
+    "production_cost": "920",
+    "description": "+3 Relic slots. +100% Religious Tourism from this city. +1 Food, +1 Production and +1 Culture from all Tundra tiles for this city.",
+    "placement": "Must be built adjacent to a City Center"
+  },
+  {
+    "name": "Statue of Liberty",
+    "era": "Industrial",
+    "requirement": "Civil Engineering",
+    "production_cost": "1240",
+    "description": " Grants 2 Settlers.  +4 Diplomatic Victory points when built. All your cities within 6 tiles are 100% Loyal.",
+    "placement": "Must be built on a Coast adjacent to land and a Harbor."
+  },
+  {
+    "name": "Statue of Zeus",
+    "era": "Classical",
+    "requirement": "Military Training",
+    "production_cost": "400",
+    "description": "+3 Gold. Grants 3 Spearmen, 3 Archers, and a Battering Ram. +50% Production towards anti-cavalry units across your civilization.",
+    "placement": "Must be built on flat land adjacent to an Encampment with a Barracks."
+  },
+  {
+    "name": "Stonehenge",
+    "era": "Ancient",
+    "requirement": "Astrology",
+    "production_cost": "180",
+    "description": "+2 Faith. Grants a free Great Prophet.  Great Prophets may found a religion on Stonehenge instead of a Holy Site.",
+    "placement": "Must be built on flat land adjacent to Stone."
+  },
+  {
+    "name": "Sydney Opera House",
+    "era": "Atomic",
+    "requirement": "Cultural Heritage",
+    "production_cost": "1850",
+    "description": "+8 Culture. +5 Great Musician points per turn. +3 Great Works of Music slots",
+    "placement": "Must be built on Coast adjacent to a Harbor. Cannot be built on a Lake."
+  },
+  {
+    "name": "Taj Mahal",
+    "era": "Renaissance",
+    "requirement": "Humanism",
+    "production_cost": "920",
+    "description": "+1 Era Score from Historic Moment earned after the wonder is complete if that Moment is usually worth 2 or more Era Score.",
+    "placement": "Must be built next to a River."
+  },
+  {
+    "name": "Temple of Artemis",
+    "era": "Ancient",
+    "requirement": "Archery",
+    "production_cost": "180",
+    "description": "+4 Food. +3 Housing. Each Camp, Pasture, and Plantation within 4 tiles provides +1 Amenity.",
+    "placement": "Must be built next to a Camp."
+  },
+  {
+    "name": "Terracotta Army",
+    "era": "Classical",
+    "requirement": "Construction",
+    "production_cost": "400",
+    "description": "+2 Great General points per turn. All current land units gain a Promotion level. All Archaeologists from the owner may enter foreign lands without Open Borders.",
+    "placement": "Must be built on flat Grassland or Plains adjacent to an Encampment district with a Barracks or Stable."
+  },
+  {
+    "name": "Torre de Bel\u00e9m",
+    "era": "Renaissance",
+    "requirement": "Mercantilism",
+    "production_cost": "920",
+    "description": "International Trade Routes from this city receive +2 Gold for every Luxury Resource at the destination. When Torre de Bel\u00e9m is constructed, cities not on your home continent receive the lowest Production cost building they can currently construct. +5 Gold. +1 Great Admiral point per turn",
+    "placement": "Must be built on Coast adjacent to land and a Harbor. Cannot be built on a Lake."
+  },
+  {
+    "name": "University of Sankore",
+    "era": "Medieval",
+    "requirement": "Education",
+    "production_cost": "710",
+    "description": "+3 Science. +1 Faith. +2 Great Scientist points per turn. +2 Science for every Trade Route to this city. Domestic Trade Routes grant an additional +1 Faith to this city. Other Civilizations' Trade Routes to this city grant them +1 Science and +1 Gold.",
+    "placement": "Must be built on a Desert or Desert Hill adjacent to a Campus with a University."
+  },
+  {
+    "name": "Venetian Arsenal",
+    "era": "Renaissance",
+    "requirement": "Mass Production",
+    "production_cost": "920",
+    "description": "+2 Great Engineer points per turn. Receive a second naval unit each time you train a naval unit.[7]",
+    "placement": "Must be built on the Coast[8] and adjacent to an Industrial Zone district."
+  }
+]
