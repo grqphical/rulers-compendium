@@ -73,5 +73,10 @@ func main() {
 	improvements_api.GET("", router.GetImprovements)
 	improvements_api.GET("/:name", router.GetImprovement)
 
+	// Wonders API
+	wonders_api := version_1.Group("/wonders")
+	wonders_api.GET("", router.GetWonders)
+	wonders_api.GET("/:name", router.GetWonder)
+
 	e.Logger.Fatal(e.Start("127.0.0.1:8000"))
 }
