@@ -15,7 +15,7 @@ import (
 // @Param limit query int false "limits amount of results returned"
 // @Success 200 {object} []database.Improvement
 // @Failure 400 {object} string "Invalid limit value"
-// @Router /api/v1/improvements [get]
+// @Router /improvements [get]
 func (r *Router) GetImprovements(c echo.Context) error {
 	limit := c.QueryParam("limit")
 	improvements := r.db.Improvements
@@ -38,7 +38,7 @@ func (r *Router) GetImprovements(c echo.Context) error {
 // @Produce json
 // @Param name path string true "Improvement to get"
 // @Success 200 {object} database.Improvement
-// @Router /api/v1/improvements/{name} [get]
+// @Router /improvements/{name} [get]
 func (r *Router) GetImprovement(c echo.Context) error {
 	name := c.Param("name")
 	name = strings.ReplaceAll(name, "%20", " ")

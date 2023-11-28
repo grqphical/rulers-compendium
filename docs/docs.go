@@ -23,7 +23,7 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/api/v1/civilizations": {
+        "/civilizations": {
             "get": {
                 "description": "Get's all civilizations available to play in civ 6",
                 "consumes": [
@@ -62,7 +62,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/civilizations/{name}": {
+        "/civilizations/{name}": {
             "get": {
                 "description": "Gets a civilization in civ 6 based on a given name",
                 "consumes": [
@@ -93,7 +93,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/districts": {
+        "/districts": {
             "get": {
                 "description": "Get's all districts from civ 6",
                 "consumes": [
@@ -138,7 +138,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/districts/{name}": {
+        "/districts/{name}": {
             "get": {
                 "description": "Gets a district by name in civ 6",
                 "consumes": [
@@ -169,7 +169,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/improvements": {
+        "/improvements": {
             "get": {
                 "description": "Get's all improvements buildable in civ 6",
                 "consumes": [
@@ -208,7 +208,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/improvements/{name}": {
+        "/improvements/{name}": {
             "get": {
                 "description": "Gets an improvement in civ 6 based on a given name",
                 "consumes": [
@@ -239,7 +239,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/leaders": {
+        "/leaders": {
             "get": {
                 "description": "Get's all leaders from civ 6 including their agenda's and abilities",
                 "consumes": [
@@ -284,7 +284,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/leaders/{name}": {
+        "/leaders/{name}": {
             "get": {
                 "description": "Gets a single leader from civ 6",
                 "consumes": [
@@ -310,6 +310,76 @@ const docTemplate = `{
                         "description": "OK",
                         "schema": {
                             "$ref": "#/definitions/database.Leader"
+                        }
+                    }
+                }
+            }
+        },
+        "/wonders": {
+            "get": {
+                "description": "Get's all buildable wonders from civ 6",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Wonders"
+                ],
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "limits amount of results returned",
+                        "name": "limit",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/database.Wonder"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid limit value",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/wonders/{name}": {
+            "get": {
+                "description": "Gets a buildable wonder from civ 6",
+                "consumes": [
+                    "*/*"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Wonders"
+                ],
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "wonder to get",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/database.Wonder"
                         }
                     }
                 }
@@ -430,6 +500,29 @@ const docTemplate = `{
                     "type": "string"
                 },
                 "unit": {
+                    "type": "string"
+                }
+            }
+        },
+        "database.Wonder": {
+            "type": "object",
+            "properties": {
+                "description": {
+                    "type": "string"
+                },
+                "era": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "placement": {
+                    "type": "string"
+                },
+                "production_cost": {
+                    "type": "string"
+                },
+                "requirement": {
                     "type": "string"
                 }
             }

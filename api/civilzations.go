@@ -15,7 +15,7 @@ import (
 // @Param limit query int false "limits amount of results returned"
 // @Success 200 {object} []database.Civilization
 // @Failure 400 {object} string "Invalid limit value"
-// @Router /api/v1/civilizations [get]
+// @Router /civilizations [get]
 func (r *Router) GetCivilizations(c echo.Context) error {
 	civs := r.db.Civilizations
 
@@ -39,7 +39,7 @@ func (r *Router) GetCivilizations(c echo.Context) error {
 // @Produce json
 // @Param name path string true "civilization to get"
 // @Success 200 {object} database.Civilization
-// @Router /api/v1/civilizations/{name} [get]
+// @Router /civilizations/{name} [get]
 func (r *Router) GetCivilization(c echo.Context) error {
 	name := c.Param("name")
 	name = strings.ReplaceAll(name, "%20", " ")

@@ -76,6 +76,21 @@ definitions:
       unit:
         type: string
     type: object
+  database.Wonder:
+    properties:
+      description:
+        type: string
+      era:
+        type: string
+      name:
+        type: string
+      placement:
+        type: string
+      production_cost:
+        type: string
+      requirement:
+        type: string
+    type: object
 host: localhost:8000
 info:
   contact:
@@ -89,7 +104,7 @@ info:
   title: Rulers Compendium API
   version: "1.0"
 paths:
-  /api/v1/civilizations:
+  /civilizations:
     get:
       consumes:
       - '*/*'
@@ -114,7 +129,7 @@ paths:
             type: string
       tags:
       - Civilizations
-  /api/v1/civilizations/{name}:
+  /civilizations/{name}:
     get:
       consumes:
       - '*/*'
@@ -134,7 +149,7 @@ paths:
             $ref: '#/definitions/database.Civilization'
       tags:
       - Civilizations
-  /api/v1/districts:
+  /districts:
     get:
       consumes:
       - '*/*'
@@ -163,7 +178,7 @@ paths:
             type: string
       tags:
       - Districts
-  /api/v1/districts/{name}:
+  /districts/{name}:
     get:
       consumes:
       - '*/*'
@@ -183,7 +198,7 @@ paths:
             $ref: '#/definitions/database.District'
       tags:
       - Districts
-  /api/v1/improvements:
+  /improvements:
     get:
       consumes:
       - '*/*'
@@ -208,7 +223,7 @@ paths:
             type: string
       tags:
       - Improvements
-  /api/v1/improvements/{name}:
+  /improvements/{name}:
     get:
       consumes:
       - '*/*'
@@ -228,7 +243,7 @@ paths:
             $ref: '#/definitions/database.Improvement'
       tags:
       - Improvements
-  /api/v1/leaders:
+  /leaders:
     get:
       consumes:
       - '*/*'
@@ -257,7 +272,7 @@ paths:
             type: string
       tags:
       - Leaders
-  /api/v1/leaders/{name}:
+  /leaders/{name}:
     get:
       consumes:
       - '*/*'
@@ -277,6 +292,51 @@ paths:
             $ref: '#/definitions/database.Leader'
       tags:
       - Leaders
+  /wonders:
+    get:
+      consumes:
+      - '*/*'
+      description: Get's all buildable wonders from civ 6
+      parameters:
+      - description: limits amount of results returned
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/database.Wonder'
+            type: array
+        "400":
+          description: Invalid limit value
+          schema:
+            type: string
+      tags:
+      - Wonders
+  /wonders/{name}:
+    get:
+      consumes:
+      - '*/*'
+      description: Gets a buildable wonder from civ 6
+      parameters:
+      - description: wonder to get
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/database.Wonder'
+      tags:
+      - Wonders
 schemes:
 - http
 swagger: "2.0"

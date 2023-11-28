@@ -36,7 +36,7 @@ func GetLeadersByCivilization(civilzation string, limit int, db *database.Databa
 // @Param civilization query string false "filters leaders by civilization"
 // @Success 200 {object} []database.Leader
 // @Failure 400 {object} string "Invalid limit value"
-// @Router /api/v1/leaders [get]
+// @Router /leaders [get]
 func (r *Router) GetLeaders(c echo.Context) error {
 	limit := c.QueryParam("limit")
 	civilzation := c.QueryParam("civilization")
@@ -70,7 +70,7 @@ func (r *Router) GetLeaders(c echo.Context) error {
 // @Produce json
 // @Param name path string true "leader to get"
 // @Success 200 {object} database.Leader
-// @Router /api/v1/leaders/{name} [get]
+// @Router /leaders/{name} [get]
 func (r *Router) GetLeader(c echo.Context) error {
 	name := c.Param("name")
 	name = strings.ReplaceAll(name, "%20", " ")

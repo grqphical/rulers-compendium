@@ -16,7 +16,7 @@ import (
 // @Param civilization query string false "filters leaders by civilization"
 // @Success 200 {object} []database.District
 // @Failure 400 {object} string "Invalid limit value"
-// @Router /api/v1/districts [get]
+// @Router /districts [get]
 func (r *Router) GetDistricts(c echo.Context) error {
 	districts := r.db.Districts
 
@@ -41,7 +41,7 @@ func (r *Router) GetDistricts(c echo.Context) error {
 // @Produce json
 // @Param name path string true "district to find"
 // @Success 200 {object} database.District
-// @Router /api/v1/districts/{name} [get]
+// @Router /districts/{name} [get]
 func (r *Router) GetDistrict(c echo.Context) error {
 	name := c.Param("name")
 	name = strings.ReplaceAll(name, "%20", " ")
