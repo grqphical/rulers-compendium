@@ -6,11 +6,11 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	echoSwagger "github.com/swaggo/echo-swagger"
 
 	"github.com/grqphical07/rulers-compendium/api"
 	"github.com/grqphical07/rulers-compendium/database"
 	_ "github.com/grqphical07/rulers-compendium/docs"
-	echoSwagger "github.com/swaggo/echo-swagger"
 )
 
 // @title Rulers Compendium API
@@ -78,5 +78,5 @@ func main() {
 	wonders_api.GET("", router.GetWonders)
 	wonders_api.GET("/:name", router.GetWonder)
 
-	e.Logger.Fatal(e.Start("127.0.0.1:8000"))
+	e.Logger.Fatal(e.Start(":8000"))
 }
